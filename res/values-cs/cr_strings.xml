@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Video and audio attachments -->
-  <string name="mediapicker_galleryChooserDescription_custom">Vyberte obrázky z tohoto zařízení</string>
+  <string name="mediapicker_galleryChooserDescription_custom">Vybrat obrázky nebo videa z tohoto zařízení</string>
   <string name="mediapicker_audioListChooserDescription">Vyberte audio soubory z tohoto zařízení</string>
   <string name="mediapicker_gallery_image_item_attachment_too_large">Nelze připojit video. Maximální velikost zprávy překročena.</string>
   <string name="mediapicker_audio_list_title">Vyberte audio</string>

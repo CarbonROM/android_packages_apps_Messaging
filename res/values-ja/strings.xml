@@ -722,11 +722,11 @@
   <!-- APN error dialog messages: -->
   <string name="error_mnc_not23">MNC欄は2桁か3桁で指定してください。</string>
   <!-- The message of dialog indicated restoring default APN settings in progress -->
-  <string name="restore_default_apn">デフォルトのAPN設定を復元しています。</string>
+  <string name="restore_default_apn">既定のAPN設定を復元しています</string>
   <!-- APNs screen menu option to reset default APN settings -->
-  <string name="menu_restore_default_apn">デフォルトにリセット</string>
+  <string name="menu_restore_default_apn">既定にリセット</string>
   <!-- APNs screen toast message to inform reset default APN settings is completed -->
-  <string name="restore_default_apn_completed">デフォルトのAPN設定にリセットしました。</string>
+  <string name="restore_default_apn_completed">既定のAPN設定にリセットしました</string>
   <!-- Name to assign to a Network Access Point that was saved without a name -->
   <string name="untitled_apn">無題</string>
   <!-- Title for Access Point Names settings -->
