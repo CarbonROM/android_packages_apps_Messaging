@@ -256,9 +256,11 @@
   <!-- An enumeration comma for separating multiple names in notifications. [CHAR LIMIT=2] -->
   <string name="enumeration_comma">, </string>
   <!-- Separator between parts of a notification in each line of an inboxStyle notification. [CHAR LIMIT=2] -->
+  <string name="notification_separator">\u0020\u0020</string>
   <!-- Separator between title and content in notification ticker -->
   <string name="notification_ticker_separator">: </string>
   <!-- Separator between title and content in notifications -->
+  <string name="notification_space_separator">\u0020\u0020</string>
   <!-- Shown in notifications when there's a picture. [CHAR LIMIT=25] -->
   <string name="notification_picture">Hình ảnh</string>
   <!-- Shown in notifications when there's an audio clip. [CHAR LIMIT=25] -->

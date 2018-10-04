@@ -40,7 +40,7 @@
   <!-- The tab header for the frequently used contacts list -->
   <string name="contact_picker_frequents_tab_title">よく使う連絡先</string>
   <!-- The tab header for all contacts list -->
-  <string name="contact_picker_all_contacts_tab_title">すべての連絡先</string>
+  <string name="contact_picker_all_contacts_tab_title">全ての連絡先</string>
   <!-- The text on the list item in the contact picker that allows a user to send an SMS directly
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
   <string name="contact_list_send_to_text"><xliff:g id="DESTINATION">%s</xliff:g>に送信</string>
@@ -107,12 +107,12 @@
   <!-- EditText hint for asking the user to enter their phone number -->
   <string name="enter_phone_number_hint">電話番号</string>
   <!-- Free SMS storage actions -->
-  <string name="delete_all_media">メディア付きのメッセージをすべて削除</string>
+  <string name="delete_all_media">メディア付きのメッセージを全て削除</string>
   <string name="delete_oldest_messages"><xliff:g id="DURATION">%s</xliff:g>より前のメッセージを削除</string>
   <string name="auto_delete_oldest_messages"><xliff:g id="DURATION">%s</xliff:g>より前のメッセージを自動削除</string>
   <string name="ignore">無視</string>
   <!-- Free SMS storage action confirm dialog message -->
-  <string name="delete_all_media_confirmation">メディア付きのメッセージをすべて削除しますか？</string>
+  <string name="delete_all_media_confirmation">メディア付きのメッセージを全て削除しますか？</string>
   <string name="delete_oldest_messages_confirmation"><xliff:g id="DURATION">%s</xliff:g>より前のメッセージを削除しますか？</string>
   <string name="auto_delete_oldest_messages_confirmation"><xliff:g id="DURATION">%s</xliff:g>より前のメッセージを削除し、自動削除をONにしますか？</string>
   <!-- ####### Strings to support the mms/sms service ####### -->
@@ -299,7 +299,7 @@
   <!-- The text of the toast/snack message shown when a notifications turned on for selected conversations -->
   <string name="notification_on_toast_message">通知をオンにしました</string>
   <!-- Toast shown when the user tries to send a message, and then sets Bugle as the default SMS app. -->
-  <string name="toast_after_setting_default_sms_app_for_message_send">すべて設定されました。もう一度[送信]をタップしてください。</string>
+  <string name="toast_after_setting_default_sms_app_for_message_send">全て設定されました。もう一度[送信]をタップしてください。</string>
   <!-- Toast shown when the user successfully sets Bugle as the default SMS app. -->
   <string name="toast_after_setting_default_sms_app">SMSを既定のSMSアプリとして設定しました。</string>
   <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
