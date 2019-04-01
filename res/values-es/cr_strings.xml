@@ -16,20 +16,20 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Video and audio attachments -->
-  <string name="mediapicker_galleryChooserDescription_custom">Seleccione imágenes o videos de este dispositivo</string>
-  <string name="mediapicker_audioListChooserDescription">Escoger archivos de música de este dispositivo</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">No se puede adjuntar el vídeo. Tamaño máximo del mensaje excedido.</string>
-  <string name="mediapicker_audio_list_title">Elegir audio</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">El audio está seleccionado.</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">El audio no está seleccionado.</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d </xliff:g> seleccionado</string>
-  <!-- Swipe to delete conversation -->
-  <string name="swipe_to_delete_conversation_pref_title">Deslizar para eliminar</string>
-  <string name="swipe_to_delete_conversation_pref_summary">Deslizar hacia la derecha para borrar conversacion</string>
-  <!-- Show emoticons -->
-  <string name="show_emoticons_pref_title">Acceso a emoticonos</string>
-  <string name="show_emoticons_pref_summary">Mostrar el botón de emoticonos en el teclado</string>
-  <!-- Shortcuts -->
-  <string name="shortcuts_compose_new">Mensaje nuevo</string>
+    <!-- Video and audio attachments -->
+    <string name="mediapicker_galleryChooserDescription_custom">Seleccione imágenes o videos de este dispositivo</string>
+    <string name="mediapicker_audioListChooserDescription">Escoger archivos de música de este dispositivo</string>
+    <string name="mediapicker_gallery_image_item_attachment_too_large">No se puede adjuntar el vídeo. Tamaño máximo del mensaje excedido.</string>
+    <string name="mediapicker_audio_list_title">Elegir audio</string>
+    <string name="mediapicker_audio_list_item_selected_content_description">El audio está seleccionado.</string>
+    <string name="mediapicker_audio_list_item_unselected_content_description">El audio no está seleccionado.</string>
+    <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d </xliff:g> seleccionado</string>
+    <!-- Swipe to delete conversation -->
+    <string name="swipe_to_delete_conversation_pref_title">Deslizar para eliminar</string>
+    <string name="swipe_to_delete_conversation_pref_summary">Deslizar hacia la derecha para borrar conversacion</string>
+    <!-- Show emoticons -->
+    <string name="show_emoticons_pref_title">Acceso a emoticonos</string>
+    <string name="show_emoticons_pref_summary">Mostrar el botón de emoticonos en el teclado</string>
+    <!-- Shortcuts -->
+    <string name="shortcuts_compose_new">Mensaje nuevo</string>
 </resources>

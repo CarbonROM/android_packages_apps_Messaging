@@ -16,20 +16,20 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Video and audio attachments -->
-  <string name="mediapicker_galleryChooserDescription_custom">Izbira slik ali videov iz te naprave</string>
-  <string name="mediapicker_audioListChooserDescription">Izbira zvočnih datotek iz te naprave</string>
-  <string name="mediapicker_gallery_image_item_attachment_too_large">Videa ni mogoče priložiti. Presežena največja velikost sporočila.</string>
-  <string name="mediapicker_audio_list_title">Izberite zvočno datoteko</string>
-  <string name="mediapicker_audio_list_item_selected_content_description">Zvočna datoteka izbrana.</string>
-  <string name="mediapicker_audio_list_item_unselected_content_description">Zvočna datoteka ni izbrana.</string>
-  <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> izbran</string>
-  <!-- Swipe to delete conversation -->
-  <string name="swipe_to_delete_conversation_pref_title">Povlecite za izbris</string>
-  <string name="swipe_to_delete_conversation_pref_summary">Povlecite desno za izbris pogovora</string>
-  <!-- Show emoticons -->
-  <string name="show_emoticons_pref_title">Dostop do čustvenih simbolov</string>
-  <string name="show_emoticons_pref_summary">Pokaži čustvene simbole na tipkovnici</string>
-  <!-- Shortcuts -->
-  <string name="shortcuts_compose_new">Novo sporočilo</string>
+    <!-- Video and audio attachments -->
+    <string name="mediapicker_galleryChooserDescription_custom">Izbira slik ali videov iz te naprave</string>
+    <string name="mediapicker_audioListChooserDescription">Izbira zvočnih datotek iz te naprave</string>
+    <string name="mediapicker_gallery_image_item_attachment_too_large">Videa ni mogoče priložiti. Presežena največja velikost sporočila.</string>
+    <string name="mediapicker_audio_list_title">Izberite zvočno datoteko</string>
+    <string name="mediapicker_audio_list_item_selected_content_description">Zvočna datoteka izbrana.</string>
+    <string name="mediapicker_audio_list_item_unselected_content_description">Zvočna datoteka ni izbrana.</string>
+    <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> izbran</string>
+    <!-- Swipe to delete conversation -->
+    <string name="swipe_to_delete_conversation_pref_title">Povlecite za izbris</string>
+    <string name="swipe_to_delete_conversation_pref_summary">Povlecite desno za izbris pogovora</string>
+    <!-- Show emoticons -->
+    <string name="show_emoticons_pref_title">Dostop do čustvenih simbolov</string>
+    <string name="show_emoticons_pref_summary">Pokaži čustvene simbole na tipkovnici</string>
+    <!-- Shortcuts -->
+    <string name="shortcuts_compose_new">Novo sporočilo</string>
 </resources>
