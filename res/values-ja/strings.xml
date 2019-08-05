@@ -35,8 +35,8 @@
     <string name="settings">設定</string>
     <!-- Inform user of the names of permissions that are required to use the app -->
     <string name="required_permissions_promo">SMS には SMS、電話、連絡先に対する許可が必要です。</string>
-    <string name="enable_permission_procedure">許可の変更は、[設定]&gt;[アプリ]&gt;[SMS]&gt;[許可]で行えます。</string>
-    <string name="enable_permission_procedure_description">許可の変更は、[設定]、[アプリ]、[SMS]、[許可]で行えます。</string>
+    <string name="enable_permission_procedure">許可の変更は 設定 - アプリ - SMS - 許可 で行えます</string>
+    <string name="enable_permission_procedure_description">許可の変更は 設定 - アプリ - SMS - 許可 で行えます</string>
     <!-- The tab header for the frequently used contacts list -->
     <string name="contact_picker_frequents_tab_title">よく使う連絡先</string>
     <!-- The tab header for all contacts list -->
@@ -48,8 +48,8 @@
     <string name="mediapicker_galleryChooserDescription">この端末から画像を選択</string>
     <string name="mediapicker_audioChooserDescription">音声の録音</string>
     <string name="mediapicker_gallery_title">写真を選択</string>
-    <string name="mediapicker_gallery_item_selected_content_description">メディアを選択しました。</string>
-    <string name="mediapicker_gallery_item_unselected_content_description">メディアの選択を解除しました。</string>
+    <string name="mediapicker_gallery_item_selected_content_description">メディアを選択しました</string>
+    <string name="mediapicker_gallery_item_unselected_content_description">メディアの選択を解除しました</string>
     <string name="mediapicker_gallery_title_selection"><xliff:g id="COUNT">%d</xliff:g>件選択済み</string>
     <!-- example: "image January 17 2015 1 59 pm" -->
     <string name="mediapicker_gallery_image_item_description">画像<xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
@@ -227,7 +227,7 @@
     <!-- Action menu title for deleting failed message selected in conversation -->
     <string name="action_delete_message">削除</string>
     <string name="delete_message_confirmation_dialog_title">このメッセージを削除しますか?</string>
-    <string name="delete_message_confirmation_dialog_text">この操作は元に戻せません。</string>
+    <string name="delete_message_confirmation_dialog_text">この操作は元に戻せません</string>
     <string name="delete_message_confirmation_button">削除</string>
     <!-- Alert dialog title to accept or decline deleting conversation(s). -->
     <plurals name="delete_conversations_confirmation_dialog_title">
@@ -299,7 +299,7 @@
     <!-- The text of the toast/snack message shown when a notifications turned on for selected conversations -->
     <string name="notification_on_toast_message">通知を ON にしました</string>
     <!-- Toast shown when the user tries to send a message, and then sets Bugle as the default SMS app. -->
-    <string name="toast_after_setting_default_sms_app_for_message_send">全て設定されました。もう一度[送信]をタップして下さい。</string>
+    <string name="toast_after_setting_default_sms_app_for_message_send">全て設定されました。もう一度送信をタップして下さい。</string>
     <!-- Toast shown when the user successfully sets Bugle as the default SMS app. -->
     <string name="toast_after_setting_default_sms_app">SMS を既定の SMS アプリとして設定しました</string>
     <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
@@ -310,7 +310,7 @@
     <string name="audio_play_content_description">音声添付ファイルの再生</string>
     <string name="audio_pause_content_description">一時停止</string>
     <!-- Accessibility announcement for an incoming message -->
-    <string name="incoming_message_announcement"><xliff:g id="SENDER">%s</xliff:g>さんからのメッセージは「<xliff:g id="MESSAGE">%s</xliff:g>」です。</string>
+    <string name="incoming_message_announcement"><xliff:g id="SENDER">%s</xliff:g>さんからのメッセージは「<xliff:g id="MESSAGE">%s</xliff:g>」です</string>
     <!-- Accessibility description for conversation list for 1:1 conversations -->
     <string name="one_on_one_incoming_failed_message_prefix"><xliff:g id="SENDER">%s</xliff:g> からのメッセージ「<xliff:g id="MESSAGE">%s</xliff:g>」を受信できませんでした 。(時間: <xliff:g id="TIME">%s</xliff:g>)</string>
     <string name="one_on_one_incoming_successful_message_prefix"><xliff:g id="SENDER">%s</xliff:g> からのメッセージ「<xliff:g id="MESSAGE">%s</xliff:g>」を受信しました。 (時間: <xliff:g id="TIME">%s</xliff:g>)</string>
@@ -388,7 +388,7 @@
     <string name="auto_retrieve_mms_pref_summary">MMS メッセージを自動的に取得する</string>
     <!-- Title for the preference for whether or not to auto-retrieve MMS when roaming -->
     <string name="auto_retrieve_mms_when_roaming_pref_title">ローミング時に自動取得</string>
-    <string name="auto_retrieve_mms_when_roaming_pref_summary">ローミング時に MMS を自動取得</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_summary">ローミング時に MMS を自動取得する</string>
     <string name="group_mms_pref_title">グループメッセージング</string>
     <string name="group_mms_pref_summary">宛先が複数ある場合に MMS を使用して1通のメッセージとして送信する</string>
     <!-- Preference title: SMS disabled (Messaging is not default SMS app) -->
@@ -454,7 +454,7 @@
     <!-- Sender to be used if the sender address has been hidden -->
     <string name="hidden_sender_address">差出人アドレスは非表示</string>
     <!-- Shows when the user attempts to send message while some attachment(s) haven't finished loading -->
-    <string name="cant_send_message_while_loading_attachments">添付ファイルの読み込み中はメッセージを送信できません。</string>
+    <string name="cant_send_message_while_loading_attachments">添付ファイルの読み込み中はメッセージを送信できません</string>
     <!-- Notifies the user when an attachment fails to load -->
     <string name="fail_to_load_attachment">添付ファイルを読み込めません。もう一度お試し下さい。</string>
     <!-- Shows when the user attempts to send message when there is no active subscription -->
@@ -522,7 +522,7 @@
     <!-- Reached MMS message attachment limit -->
     <string name="mms_attachment_limit_reached">添付ファイルの上限に達しました</string>
     <!-- Message attachment load failed -->
-    <string name="mms_attachment_load_failed">添付ファイルを読み込めませんでした。</string>
+    <string name="mms_attachment_load_failed">添付ファイルを読み込めませんでした</string>
     <!-- Alert dialog title to accept or decline adding the given phone number to your contacts. -->
     <string name="add_contact_confirmation_dialog_title">連絡先に追加しますか?</string>
     <!-- Alert dialog accept adding the given phone number to your contacts button. -->
@@ -574,7 +574,7 @@
     <string name="no_preferred_sim_selected">SMS メッセージ送信用の優先 SIM が選択されていません</string>
     <!-- Dialog message that indicates user must be granted permissions from the phone owner to
          send SMS messages. -->
-    <string name="requires_sms_permissions_message">このアプリは端末の所有者によって許可されていません。</string>
+    <string name="requires_sms_permissions_message">このアプリは端末の所有者によって許可されていません</string>
     <!-- Dialog button text that closes the application. -->
     <string name="requires_sms_permissions_close_button">OK</string>
     <!-- Toast text when creating a conversation with more participants than MMS/SMS config permits -->
@@ -714,7 +714,7 @@
     <!-- Edit access point screen menu option to discard the user's changes for this APN -->
     <string name="menu_discard_apn_change">破棄</string>
     <!-- APN error dialog messages: -->
-    <string name="error_apn_name_empty">[名前]欄は必須です。</string>
+    <string name="error_apn_name_empty">名前欄は必須です</string>
     <!-- APN error dialog messages: -->
     <string name="error_apn_empty">APN は必須です</string>
     <!-- APN error dialog messages: -->
@@ -761,7 +761,7 @@
     <!-- Notification title for incoming sms/mms message for secondary user -->
     <string name="secondary_user_new_message_title">新しいメッセージ</string>
     <!-- Ticker for notification  for incoming sms/mms message for secondary user -->
-    <string name="secondary_user_new_message_ticker">新しいメッセージがあります。</string>
+    <string name="secondary_user_new_message_ticker">新しいメッセージがあります</string>
     <!-- Content description for the SIM selector button in the conversation -->
     <string name="sim_selector_button_content_description">SIM の切り替え</string>
     <!-- Content description for the SIM selector button with selected sim name -->
