@@ -23,6 +23,7 @@
     <string name="share_intent_activity_label">Valige vestlus</string>
     <string name="action_settings">Seaded</string>
     <string name="sendButtonContentDescription">Saada teade</string>
+    <string name="attachMediaButtonContentDescription">Lisage manus</string>
     <string name="help_and_feedback_activity_label">Abi</string>
     <string name="welcome">Tere tulemast</string>
     <string name="skip">Jäta vahele</string>
@@ -32,13 +33,18 @@
     <string name="settings_with_arrow">Seaded &gt;</string>
     <string name="settings">Seaded</string>
     <!-- Inform user of the names of permissions that are required to use the app -->
+    <string name="enable_permission_procedure">Lube saate muuta menüüdes Seaded &gt; Rakendused &gt; Sõnumid &gt; Load.</string>
+    <string name="enable_permission_procedure_description">Lube saate muuta menüüdes Seaded, Rakendused, Sõnumid ja Load.</string>
     <!-- The tab header for the frequently used contacts list -->
     <string name="contact_picker_frequents_tab_title">Sagedased</string>
     <!-- The tab header for all contacts list -->
     <string name="contact_picker_all_contacts_tab_title">Kõik kontaktid</string>
     <!-- The text on the list item in the contact picker that allows a user to send an SMS directly
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
+    <string name="contact_list_send_to_text">Saada numbrile <xliff:g id="destination">%s</xliff:g></string>
+    <string name="mediapicker_galleryChooserDescription">Valige selle seadme pildid</string>
     <string name="mediapicker_audioChooserDescription">Salvesta heli</string>
+    <string name="mediapicker_gallery_title">Vali foto</string>
     <string name="mediapicker_gallery_item_selected_content_description">Meedia fail on valitud.</string>
     <string name="mediapicker_gallery_item_unselected_content_description">Meedia fail pole valitud.</string>
     <string name="mediapicker_gallery_title_selection"><xliff:g id="count">%d</xliff:g> valikut</string>
@@ -95,6 +101,7 @@
     <!-- Text for SMS storage low notification and dialog -->
     <!-- Ticker for SMS storage low notification -->
     <!-- Title for asking the user to enter their phone number -->
+    <string name="enter_phone_number_title">Kinnitage telefoni number</string>
     <!-- Text for asking the user to enter their phone number -->
     <!-- EditText hint for asking the user to enter their phone number -->
     <string name="enter_phone_number_hint">Telefoninumber</string>
@@ -107,6 +114,7 @@
     <string name="outgoing_text_sender_content_description">Te ütlesite:</string>
     <!-- Prefix for accessibility to indicate who the sender of text with hyperlinks, an attachment, or yet-to-be-downloaded message is. -->
     <!-- While sending a message display this message. -->
+    <string name="message_status_sending">Saatmine&#8230;</string>
     <!-- When sending a message failed display this message. -->
     <!-- When retrying sending for a message. -->
     <!-- When showing resend action display this message. -->
@@ -114,6 +122,7 @@
     <!-- When showing resend action, display this message. -->
     <string name="message_status_failed">Ebaõnnestus</string>
     <!-- Title line for an MMS requiring manual download. -->
+    <string name="message_title_manual_download">Laadige alla uus MMS sõnum</string>
     <!-- Title line for an MMS auto-downloading. -->
     <string name="message_title_downloading">Uus MMS sõnum</string>
     <!-- Title line for MMS which failed to download. -->
@@ -121,11 +130,13 @@
     <!-- Timestamp line for MMS which failed to download. -->
     <!-- Timestamp line for MMS which failed to download. -->
     <!-- Timestamp line for MMS which is selected. -->
+    <string name="message_status_download_action">Laadida või eemaldada</string>
     <!-- Timestamp line to display while downloading a message. -->
     <string name="message_status_downloading">Allalaadimine&#8230;</string>
     <!-- Timestamp line for MMS for expired or invalid message. -->
     <string name="message_status_download_error">Sõnum on aegunud või pole saadaval</string>
     <!-- Display this info line with an MMS notification -->
+    <string name="mms_info">suurus: <xliff:g id="messageSize">%1$s</xliff:g>, aegumine: <xliff:g id="messageExpire">%2$s</xliff:g></string>
     <!-- While sending a message, if it has invalid recipient, display this message. -->
     <!-- While sending a message, this error is expected to be generated when user does not have
          MMS enabled on his account. [CHAR LIMIT=NONE] -->
@@ -141,6 +152,7 @@
     <!-- When an error occurs downloading a new message and the sender is unknown, substitute
          this default text. -->
     <string name="unknown_sender">Tundmatu saatja</string>
+    <string name="delivered_status_content_description">Kohale toimetatud</string>
     <!-- When an error occurs downloading a new message, display this message.
          An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
     <string name="dl_failure_notification">Ei saa laadida alla sõnumit <xliff:g id="SUBJECT">%1$s</xliff:g> saatjalt <xliff:g id="FROM">%2$s</xliff:g>.</string>
@@ -163,6 +175,8 @@
     <string name="camera_error_opening">Kaamera pole saadaval</string>
     <string name="camera_error_unknown">Kaamera pole saadaval</string>
     <!-- Error message when we are unable to write a picture or video file because of an error writing to storage (usually because insufficient space) -->
+    <string name="camera_error_storage_fail">Meediumit ei saa salvestada</string>
+    <string name="camera_error_failure_taking_picture">Ei saa pilti teha</string>
     <!-- Content description text for Back button on the action bar -->
     <string name="back">Tagasi</string>
     <!-- Action menu title for showing archived conversations -->
@@ -185,6 +199,10 @@
     <string name="delete_message_confirmation_dialog_text">Seda toimingut ei saa tühistada.</string>
     <string name="delete_message_confirmation_button">Kustuta</string>
     <!-- Alert dialog title to accept or decline deleting conversation(s). -->
+    <plurals name="delete_conversations_confirmation_dialog_title">
+        <item quantity="one">Kas kustutada see vestlus?</item>
+        <item quantity="other">Kas kustutada need vestlused?</item>
+    </plurals>
     <!-- Alert dialog accept deleting this conversation button. -->
     <string name="delete_conversation_confirmation_button">Kustuta</string>
     <!-- Alert dialog decline deleting this conversation button. -->
@@ -192,13 +210,17 @@
     <!-- Hint text for the recipient chips text box when it's empty -->
     <string name="recipient_hint">Kuni</string>
     <!-- Action menu title for multiple selection in gallery image picker -->
+    <string name="action_multiselect">Valige mitu pilti</string>
     <!-- Action menu title for confirming multiple selection in gallery image picker -->
     <string name="action_confirm_multiselect">Valiku kinnitamine</string>
     <!-- Text for showing there are more items in the attachments than is shown (e.g. "+2") -->
     <string name="attachment_more_items">+<xliff:g id="count">%d</xliff:g></string>
     <!-- Failed to start recording audio -->
+    <string name="audio_recording_start_failed">Heli ei saa salvestada. Proovi uuesti.</string>
     <!-- Failed to replay recorded audio -->
+    <string name="audio_recording_replay_failed">Heli ei saa esitada. Proovi uuesti.</string>
     <!-- Error occurred while recording audio -->
+    <string name="audio_recording_error">Heli ei saa salvestada. Proovi uuesti.</string>
     <!-- Hint text on the audio recorder that instructs user how to start recording -->
     <string name="audio_picker_hint_text">Puuduta &amp; hoia</string>
     <!-- An enumeration comma for separating multiple names in notifications. [CHAR LIMIT=2] -->
@@ -220,14 +242,21 @@
     <!-- Notification action label for download MMS when set to manual downloads. [CHAR LIMIT=15] -->
     <string name="notification_download_mms">Lae alla</string>
     <!-- Notification action label for SMS reply (visible on wearable device only). [CHAR LIMIT=15] -->
+    <string name="notification_reply_via_sms">Vasta SMS-iga</string>
     <!-- Notification action label for MMS reply (visible on wearable device only). [CHAR LIMIT=15] -->
+    <string name="notification_reply_via_mms">Vasta MMS-iga</string>
     <!-- Notification voice reply prompt (visible on wearable device only). [CHAR LIMIT=15] -->
     <string name="notification_reply_prompt">Vasta</string>
     <!-- The bottom line on a wearable notification that shows how many participants in the conversation -->
+    <plurals name="wearable_participant_count">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> osaleja</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> osalejat</item>
+    </plurals>
     <!-- Shown in the Android Wear conversation log as the sender for outgoing messages,
          when we don't know the user's real name (e.g. no "Me" contact on the phone). -->
     <string name="unknown_self_participant">Mina</string>
     <!-- The text of the toast/snack message shown when a contact is blocked -->
+    <string name="blocked_toast_message">Kontakt plokeeritud &amp; arhiveeritud</string>
     <!-- The text of the toast/snack message shown when a contact is unblocked -->
     <!-- The text of the toast/snack message shown when the selected conversation(s) are archived.
          Displays the number of converstions archived -->
@@ -242,6 +271,12 @@
     <!-- Toast shown when the user tries to send a message, and then sets Bugle as the default SMS app. -->
     <!-- Toast shown when the user successfully sets Bugle as the default SMS app. -->
     <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="one">Visake manus ära</item>
+        <item quantity="other">Visake manused ära</item>
+    </plurals>
+    <string name="audio_attachment_content_description">Audio manus</string>
+    <string name="audio_play_content_description">Esita audio manus</string>
     <string name="audio_pause_content_description">Paus</string>
     <!-- Accessibility announcement for an incoming message -->
     <string name="incoming_message_announcement">Sõnum saatjalt <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>.</string>
@@ -266,6 +301,30 @@
     <string name="camera_take_picture">Tee foto</string>
     <string name="camera_start_recording">Käivita video salvestamine</string>
     <string name="camera_cancel_recording">Lõpeta video salvestamine</string>
+    <plurals name="photos_saved_to_album">
+        <item quantity="one"><xliff:g id="QUANTITY_2">%d</xliff:g> foto salvestatud albumis \"<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> fotot salvestatud albumis \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+    </plurals>
+    <plurals name="videos_saved_to_album">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> video salvestatud albumis \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> videod salvestatud albumis \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+    </plurals>
+    <plurals name="attachments_saved_to_album">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> manus salvestatud albumis \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> manust salvestatud albumis \"<xliff:g id="albumName">%s</xliff:g>\"</item>
+    </plurals>
+    <plurals name="attachments_saved_to_downloads">
+        <item quantity="one"><xliff:g id="QUANTITY_1">%d</xliff:g> manus salvestatud allalaadimiste kausta</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> manust salvestatud allalaadimiste kausta</item>
+    </plurals>
+    <plurals name="attachments_saved">
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> manus salvestatud</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> manust salvestatud</item>
+    </plurals>
+    <plurals name="attachment_save_error">
+        <item quantity="one">Ei õnnestunud salvestada <xliff:g id="quantity">%d</xliff:g> manust</item>
+        <item quantity="other">Ei õnnestunud salvestada <xliff:g id="quantity">%d</xliff:g> manust</item>
+    </plurals>
     <!-- Description shown in the download manager for an attachment that the user manually saved -->
     <string name="attachment_file_description">Salvestatud MMS manus</string>
     <!-- Title for the preferences/settings activity -->
@@ -304,6 +363,8 @@
     <!-- Display text for phone number preference when the number is unknown -->
     <string name="unknown_phone_number_pref_display_value">Tundmatu</string>
     <!-- Title for the preference for playing a message send sound -->
+    <string name="dump_sms_pref_title">SMS-i edastamine</string>
+    <string name="dump_mms_pref_title">MMS-i edastamine</string>
     <!-- Strings for dump sms/mms dialog -->
     <!-- Title of long press menu on an individual message. -->
     <string name="message_context_menu_title">Sõnumi valikud</string>
@@ -353,6 +414,8 @@
     <!-- Notifies the user when an attachment fails to load -->
     <!-- Shows when the user attempts to send message when there is no active subscription -->
     <string name="chips_text_delete_button_content_description">Kustuta tekst</string>
+    <string name="add_more_participants_button_content_description">Lisage veel osalejaid</string>
+    <string name="confrim_participants_button_content_description">Kinnitage osalejad</string>
     <string name="start_new_conversation">Alustage uut vestlust</string>
     <!-- Content description for the checkbox when selecting an item in the gallery -->
     <string name="gallery_checkbox_content_description">Valige see üksus</string>
@@ -505,9 +568,11 @@
     <string name="block_confirmation_title">Blokeeri <xliff:g id="destination">%s</xliff:g>?</string>
     <!-- Text describing what happens when user is blocked via the block actionbar action -->
     <!-- The title of the list of blocked contacts -->
+    <string name="blocked_contacts_title">Blokeeritud kontaktid</string>
     <!-- The message in a blocked contact item which indicates tapping will unblock -->
     <string name="tap_to_unblock_message">DEPLOKEERI</string>
     <!-- Action menu title for viewing the list of blocked contacts -->
+    <string name="view_blocked_contacts_title">Blokeeritud kontaktid</string>
     <!-- Content description for the button in gallery media picker to pick an image from the document library -->
     <!-- Accessibility toast shown when a message is sending. -->
     <string name="sending_message">Sõnumi saatmine</string>
@@ -545,6 +610,7 @@
     <string name="message_image_content_description">Pilt</string>
     <!-- Text for a toast message notifying the user that we can't find an appropriate application to handle their request -->
     <!-- Accessibility : Content description for deleting a recipient chip. -->
+    <string name="chips_delete_content_description">Eemalda saaja</string>
     <!-- Label for new message button in share intent dialog -->
     <string name="share_new_message">Uus sõnum</string>
     <!-- Label for new message button in share intent dialog -->
