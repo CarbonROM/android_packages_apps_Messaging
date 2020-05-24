@@ -258,6 +258,7 @@
     <!-- The text of the toast/snack message shown when a contact is blocked -->
     <string name="blocked_toast_message">Kontakt plokeeritud &amp; arhiveeritud</string>
     <!-- The text of the toast/snack message shown when a contact is unblocked -->
+    <string name="unblocked_toast_message">Kontakt tühistatud &amp; arhiivimatta</string>
     <!-- The text of the toast/snack message shown when the selected conversation(s) are archived.
          Displays the number of converstions archived -->
     <string name="archived_toast_message"><xliff:g id="count">%d</xliff:g> arhiveeritud</string>
@@ -355,7 +356,9 @@
     <string name="group_mms_pref_title">Grupi sõnumiside</string>
     <string name="group_mms_pref_summary">MMS-i kasutamine, kui mitmele kontaktile tuleb saata üks sõnum</string>
     <!-- Preference title: SMS disabled (Messaging is not default SMS app) -->
+    <string name="sms_disabled_pref_title">SMS-i vaikerakendus</string>
     <!-- Preference title: SMS enabled (Messaging is the default SMS app) -->
+    <string name="sms_enabled_pref_title">SMS-i vaikerakendus</string>
     <!-- Preference summary: Current default SMS app -->
     <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
     <!-- Preference title: MMS phone number -->
@@ -366,6 +369,7 @@
     <string name="dump_sms_pref_title">SMS-i edastamine</string>
     <string name="dump_mms_pref_title">MMS-i edastamine</string>
     <!-- Strings for dump sms/mms dialog -->
+    <string name="wireless_alerts_title">Traadita ühenduse hoiatused</string>
     <!-- Title of long press menu on an individual message. -->
     <string name="message_context_menu_title">Sõnumi valikud</string>
     <!-- Menu item to copy message text -->
@@ -534,6 +538,7 @@
         <item quantity="other">Valed kontaktid</item>
     </plurals>
     <!-- Error toast message shown when a camera image failed to attach to the message -->
+    <string name="camera_media_failure">Kaamera kujutist ei õnnestunud laadida</string>
     <!-- A message prefix to indicate the message was sent by the user. -->
     <string name="conversation_list_item_view_sent_from_you_prefix">Teie:\u0020</string>
     <!-- A message prefix to indicate the message was sent by another user in a group conversation. -->
@@ -587,6 +592,7 @@
     <!-- Error toast shown when an MMS could not be downloaded because mobile data was disabled. -->
     <!-- Error toast shown when a message could not be downloaded because of airplane mode. -->
     <!-- Error toast shown when a message could not be downloaded because of unspecified error. -->
+    <string name="download_message_failure">Teadet ei suudetud laadida</string>
     <!-- Accessibility : content description for numbers -->
     <string name="content_description_for_number_zero">Null</string>
     <string name="content_description_for_number_one">Üks</string>
