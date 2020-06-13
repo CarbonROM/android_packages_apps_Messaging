@@ -505,7 +505,7 @@
     <!-- Action menu title in the HelpAndFeedbackFragment to let users view the version of Bugle -->
     <string name="menu_version_info">バージョン情報</string>
     <!-- The format of the subtitle of the help activity. -->
-    <string name="subtitle_format_for_version_number">バージョン%1$s</string>
+    <string name="subtitle_format_for_version_number">バージョン %1$s</string>
     <!--  Action menu title to let users view open source license -->
     <string name="menu_license">オープンソースライセンス</string>
     <!-- Title for the per-conversation preference for whether or to notify the user of new messages -->
