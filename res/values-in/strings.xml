@@ -16,70 +16,208 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The name of the application as it appears under the main Launcher icon and in various activity titles -->
+    <string name="app_name">Pesan</string>
     <!-- The name of the application as it appears in external share intent dialogs -->
+    <string name="share_intent_label">Pesan</string>
     <!-- The title when selecting a conversation to share to -->
+    <string name="share_intent_activity_label">Pilih percakapan</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="sendButtonContentDescription">Kirim Pesan</string>
+    <string name="attachMediaButtonContentDescription">Tambahkan sisipan</string>
+    <string name="help_and_feedback_activity_label">Bantuan</string>
+    <string name="welcome">Selamat datang</string>
+    <string name="skip">Lewati</string>
+    <string name="next_with_arrow">Selanjutnya &gt;</string>
+    <string name="next">Selanjutnya</string>
+    <string name="exit">Keluar</string>
+    <string name="settings_with_arrow">Pengaturan &gt;</string>
+    <string name="settings">Pengaturan</string>
     <!-- Inform user of the names of permissions that are required to use the app -->
+    <string name="required_permissions_promo">Pesan membutuhkan ijin ke SMS, Telepon dan Kontak.</string>
+    <string name="enable_permission_procedure">Anda dapat mengubah perijinan di Pengaturan &gt; Aplikasi &gt; Pesan &gt; Perijinan.</string>
+    <string name="enable_permission_procedure_description">Anda dapat mengubah perijinan di Pengaturan, Aplikasi, Pesan, Perijinan.</string>
     <!-- The tab header for the frequently used contacts list -->
+    <string name="contact_picker_frequents_tab_title">Sering</string>
     <!-- The tab header for all contacts list -->
+    <string name="contact_picker_all_contacts_tab_title">Semua kontak</string>
     <!-- The text on the list item in the contact picker that allows a user to send an SMS directly
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
+    <string name="contact_list_send_to_text">Kirim ke <xliff:g id="destination">%s</xliff:g></string>
+    <string name="mediapicker_cameraChooserDescription">Tangkap gambar atau video</string>
+    <string name="mediapicker_galleryChooserDescription">Pilih gambar dari perangkat ini</string>
+    <string name="mediapicker_audioChooserDescription">Rekam suara</string>
+    <string name="mediapicker_gallery_title">Pilih foto</string>
+    <string name="mediapicker_gallery_item_selected_content_description">Media dipilih</string>
+    <string name="mediapicker_gallery_item_unselected_content_description">Media tidak dipilih</string>
+    <string name="mediapicker_gallery_title_selection"><xliff:g id="count">%d</xliff:g> dipilih</string>
     <!-- example: "image January 17 2015 1 59 pm" -->
+    <string name="mediapicker_gallery_image_item_description">gambar <xliff:g id="date">%1$tB%1$te%1%1%1%1$tp</xliff:g></string>
+    <string name="mediapicker_gallery_image_item_description_no_date">gambar</string>
+    <string name="mediapicker_audio_title">Rekam suara</string>
+    <string name="action_share">Bagikan</string>
+    <string name="posted_just_now">"Baru saja"</string>
+    <string name="posted_now">"Sekarang"</string>
     <!-- Abbreviated message to express that something occurred some number of minutes in the past (e.g., 5 minutes ago). -->
+    <plurals name="num_minutes_ago">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> menit
+<xliff:g id="count">%d</xliff:g> menit</item>
+    </plurals>
     <!-- Abbreviated message to express that something occurred some number of hours in the past (e.g., 5 hours ago). -->
+    <plurals name="num_hours_ago">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> jam
+
+<xliff:g id="count">%d</xliff:g> jam</item>
+    </plurals>
     <!-- Abbreviated message to express that something occurred some number of days in the past (e.g., 5 days ago). -->
+    <plurals name="num_days_ago">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> hari
+
+<xliff:g id="count">%d</xliff:g> hari</item>
+    </plurals>
     <!--
         Plurals used for the duration in free sms storage action and confirm strings above
         Example: "Delete messages older than a week"
     -->
+    <plurals name="week_count">
+        <!-- Singular case -->
+        <!-- Plural case -->
+        <item quantity="other">minggu
+
+<xliff:g id="count">%d</xliff:g> minggu</item>
+    </plurals>
+    <plurals name="month_count">
+        <!-- Singular case -->
+        <!-- Plural case -->
+        <item quantity="other">satu bulan
+
+<xliff:g id="count">%d</xliff:g> bulan</item>
+    </plurals>
+    <plurals name="year_count">
+        <!-- Singular case -->
+        <!-- Plural case -->
+        <item quantity="other">satu tahun
+
+<xliff:g id="count">%d</xliff:g> tahun</item>
+    </plurals>
     <!-- Title of the class-0 message activity. -->
+    <string name="class_0_message_activity">Pesan 0</string>
+    <string name="save">Simpan</string>
     <!-- Text for SMS storage low text, when auto delete is enabled -->
+    <string name="sms_storage_low_auto_delete_enabled_dialog_text">Perangkat hampir kehabisan ruang. Perpesanan secara otomatis akan menghapus pesan lama untuk mengosongkan ruang.</string>
     <!-- Title for SMS storage low notification and dialog. Must match the framework's notification title, i.e. //frameworks/base/core/res/res/values/strings.xml#low_internal_storage_view_title -->
+    <string name="sms_storage_low_title">Ruang penyimpanan hampir habis</string>
     <!-- Text for SMS storage low notification and dialog -->
+    <string name="sms_storage_low_text">Perpesanan mungkin tidak mengirim atau menerima pesan hingga lebih banyak ruang tersedia di perangkat Anda.</string>
     <!-- Ticker for SMS storage low notification -->
+    <string name="sms_storage_low_notification_ticker">Penyimpanan SMS rendah. Anda mungkin perlu menghapus pesan.</string>
     <!-- Title for asking the user to enter their phone number -->
+    <string name="enter_phone_number_title">Konfirmasikan nomor telepon Anda</string>
     <!-- Text for asking the user to enter their phone number -->
+    <string name="enter_phone_number_text">Langkah satu kali ini akan memastikan Perpesanan mengirimkan pesan grup Anda dengan benar.</string>
     <!-- EditText hint for asking the user to enter their phone number -->
+    <string name="enter_phone_number_hint">Nomor telepon</string>
     <!-- Free SMS storage actions -->
+    <string name="delete_all_media">Hapus semua pesan beserta media</string>
+    <string name="delete_oldest_messages">Hapus pesan yang lebih lama dari<xliff:g id="duration">%s</xliff:g></string>
+    <string name="auto_delete_oldest_messages">Hapus otomatis pesan yang lebih lama dari <xliff:g id="duration">%s</xliff:g></string>
+    <string name="ignore">Abaikan</string>
     <!-- Free SMS storage action confirm dialog message -->
+    <string name="delete_all_media_confirmation">Hapus semua pesan beserta media?</string>
+    <string name="delete_oldest_messages_confirmation">Hapus pesan yang lebih lama dari<xliff:g id="duration">%s</xliff:g></string>
+    <string name="auto_delete_oldest_messages_confirmation">Hapus pesan yang lebih lama dari<xliff:g id="duration">%s</xliff:g> dan aktifkan penghapusan otomatis</string>
     <!-- ####### Strings to support the mms/sms service ####### -->
     <!-- Prefix for accessibility to indicate who the sender of a plain text message is. -->
+    <string name="incoming_text_sender_content_description"><xliff:g id="sender">%s</xliff:g> berkata</string>
+    <string name="outgoing_text_sender_content_description">Anda berkata</string>
     <!-- Prefix for accessibility to indicate who the sender of text with hyperlinks, an attachment, or yet-to-be-downloaded message is. -->
+    <string name="incoming_sender_content_description">Pesan dari <xliff:g id="sender">%s</xliff:g></string>
+    <string name="outgoing_sender_content_description">Anda mengirim pesan.</string>
     <!-- While sending a message display this message. -->
+    <string name="message_status_sending">Mengirim&#8230;</string>
     <!-- When sending a message failed display this message. -->
+    <string name="message_status_send_failed">Tidak terkiirim. Ketuk untuk mengulang.</string>
     <!-- When retrying sending for a message. -->
+    <string name="message_status_send_retrying">Tidak terkirim. Mencoba lagi&#8230;</string>
     <!-- When showing resend action display this message. -->
+    <string name="message_status_resend">Kirim ulang atau hapus</string>
     <!-- When sending a message to an emergency number failed display this message in the conversation. -->
+    <string name="message_status_send_failed_emergency_number">Harap telepon layanan darurat. Pesan teks Anda tidak dapat dikirim saat ini.</string>
     <!-- When showing resend action, display this message. -->
+    <string name="message_status_failed">Gagal</string>
     <!-- Title line for an MMS requiring manual download. -->
+    <string name="message_title_manual_download">Pesan MMS baru untuk didownload</string>
     <!-- Title line for an MMS auto-downloading. -->
+    <string name="message_title_downloading">Pesan MMS baru</string>
     <!-- Title line for MMS which failed to download. -->
+    <string name="message_title_download_failed">Tidak dapat memuat</string>
     <!-- Timestamp line for MMS which failed to download. -->
+    <string name="message_status_download_failed">Ketuk untuk mencoba lagi</string>
     <!-- Timestamp line for MMS which failed to download. -->
+    <string name="message_status_download">Ketuk untuk memuat</string>
     <!-- Timestamp line for MMS which is selected. -->
+    <string name="message_status_download_action">Memuat atau hapus</string>
     <!-- Timestamp line to display while downloading a message. -->
+    <string name="message_status_downloading">Mengunduh&#8230;</string>
     <!-- Timestamp line for MMS for expired or invalid message. -->
+    <string name="message_status_download_error">Pesan kedaluwarsa atau tidak tersedia.</string>
     <!-- Display this info line with an MMS notification -->
+    <string name="mms_info">ukuran <xliff:g id="messageSize">%1$s</xliff:g>, kadaluwarsa: <xliff:g id="messageExpire">%2$s</xliff:g></string>
     <!-- While sending a message, if it has invalid recipient, display this message. -->
+    <string name="invalid_destination">Tidak dapat mengirim. Penerima tidak valid.</string>
     <!-- While sending a message, this error is expected to be generated when user does not have
          MMS enabled on his account. [CHAR LIMIT=NONE] -->
+    <string name="service_not_activated">Layanan tidak diaktifkan pada jaringan.</string>
     <!-- If a message can't be sent because of a MMSC network problem, show this toast. [CHAR LIMIT=NONE] -->
+    <string name="service_network_problem">Tidak dapat mengirim karena masalah jaringan.</string>
     <!-- If a message has expired and is no longer available on MMSC, show this toast. [CHAR LIMIT=NONE] -->
+    <string name="service_message_not_found">Pesan kedaluwarsa atau tidak tersedia.</string>
     <!-- Download Manager -->
     <!-- When an error occurs downloading a new message and a subject isn't available, substitute
          this default subject. -->
+    <string name="no_subject">(Tanpa perihal)</string>
     <!-- When an error occurs downloading a new message and the sender is unknown, substitute
          this default text. -->
+    <string name="unknown_sender">Pengirim tidak diketahui</string>
+    <string name="delivered_status_content_description">Terkirim</string>
     <!-- When an error occurs downloading a new message, display this message.
          An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
+    <string name="dl_failure_notification">Tidak dapat mengunduh pesan <xliff:g id="SUBJECT">%1$s</xliff:g> dari <xliff:g id="FROM">%2$s</xliff:g>.</string>
     <!-- When a database error occurs due to low memory this toast is shown. -->
+    <string name="low_memory">Tidak dapat menyelesaikan operasi database karena kehabisan memori</string>
     <!-- notification line 1 for "there are some failed messages" -->
+    <string name="notification_send_failures_line1_singular">Pesan tidak terkirim</string>
     <!-- notification line 1 for "there are some failed messages" -->
+    <string name="notification_send_failures_line1_plural">Beberapa pesan tidak terkirim di Messaging</string>
+    <plurals name="notification_send_failures">
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> pesan dalam satu percakapan
+
+<xliff:g id="messages"></xliff:g> pesan dalam <xliff:g id="conversations">%d</xliff:g> percakapan</item>
+    </plurals>
     <!-- notification line 1 for download failed -->
+    <string name="notification_download_failures_line1_singular">Pesan tidak diunduh</string>
     <!-- notification line 1 for multiple downloads failed -->
+    <string name="notification_download_failures_line1_plural">Beberapa pesan tidak diunduh di Messaging</string>
+    <plurals name="notification_download_failures">
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> pesan dalam satu percakapan
+
+<xliff:g id="messages">%d</xliff:g> pesan dalam <xliff:g id="conversations">%d</xliff:g> percakapan</item>
+    </plurals>
     <!-- Notification title when emergency SMS (e.g. to 911) fails to send -->
+    <string name="notification_emergency_send_failure_line1">Pesan ke <xliff:g id="number">%1$s</xliff:g> tidak terkirim</string>
     <!-- Notification content when emergency SMS fails to send -->
+    <string name="notification_emergency_send_failure_line2">        Harap telepon layanan darurat. SMS Anda ke        <xliff:g id="number">%1$s</xliff:g>tidak dapat dikirim saat ini.
+    </string>
     <!-- notification line 1 for new message notification on the lock screen -->
+    <plurals name="notification_new_messages">
+        <item quantity="other">Pesan baru
+
+<xliff:g id="messages">%d</xliff:g> pesan baru</item>
+    </plurals>
     <!-- Text for starting a new conversation button in the compose UI -->
+    <string name="start_conversation">Mulai</string>
+    <string name="camera_error_opening">Kamera tidak tersedia</string>
+    <string name="camera_error_unknown">Kamera tidak tersedia</string>
+    <string name="camera_error_video_init_fail">Pengambilan video tidak tersedia</string>
     <!-- Error message when we are unable to write a picture or video file because of an error writing to storage (usually because insufficient space) -->
     <!-- Content description text for Back button on the action bar -->
     <!-- Action menu title for showing archived conversations -->
@@ -127,6 +265,7 @@
     <!-- Toast shown when the user tries to send a message, and then sets Bugle as the default SMS app. -->
     <!-- Toast shown when the user successfully sets Bugle as the default SMS app. -->
     <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
+    <string name="audio_attachment_content_description">Lampiran audio</string>
     <!-- Accessibility announcement for an incoming message -->
     <string name="incoming_message_announcement">Pesan dari <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>.</string>
     <!-- Accessibility description for conversation list for 1:1 conversations -->
