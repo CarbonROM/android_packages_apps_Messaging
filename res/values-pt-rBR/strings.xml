@@ -21,56 +21,55 @@
     <string name="share_intent_label">Mensagens</string>
     <!-- The title when selecting a conversation to share to -->
     <string name="share_intent_activity_label">Selecionar conversa</string>
-    <string name="action_settings">Definições</string>
+    <string name="action_settings">Configurações</string>
     <string name="sendButtonContentDescription">Enviar mensagem</string>
     <string name="attachMediaButtonContentDescription">Adicionar um anexo</string>
     <string name="help_and_feedback_activity_label">Ajuda</string>
-    <string name="welcome">Bem-vindo</string>
+    <string name="welcome">Seja bem-vindo</string>
     <string name="skip">Ignorar</string>
-    <string name="next_with_arrow">Seguinte &gt;</string>
+    <string name="next_with_arrow">Próximo -&gt;</string>
     <string name="next">Seguinte</string>
     <string name="exit">Sair</string>
-    <string name="settings_with_arrow">Definições &gt;</string>
-    <string name="settings">Definições</string>
+    <string name="settings_with_arrow">Configurações &gt;</string>
+    <string name="settings">Configurações</string>
     <!-- Inform user of the names of permissions that are required to use the app -->
-    <string name="required_permissions_promo">A aplicação Mensagens necessita de autorização para SMS, Telefone e Contactos.</string>
-    <string name="enable_permission_procedure">Pode alterar as autorizações em Definições &gt; Aplicações &gt; Mensagens &gt; Autorizações.</string>
-    <string name="enable_permission_procedure_description">Pode alterar as autorizações em Definições, Aplicações, Mensagens, Autorizações.</string>
+    <string name="required_permissions_promo">A aplicação Mensagens necessita de permissão para SMS, Telefone e Contatos.</string>
+    <string name="enable_permission_procedure">Pode alterar as permissões em Configurações &gt; Aplicativos &gt; Mensagens &gt; Permissões.</string>
+    <string name="enable_permission_procedure_description">Você pode alterar as permissões em Configurações, Aplicativos, Mensagens, Permissões.</string>
     <!-- The tab header for the frequently used contacts list -->
     <string name="contact_picker_frequents_tab_title">Frequentes</string>
     <!-- The tab header for all contacts list -->
-    <string name="contact_picker_all_contacts_tab_title">Todos os contactos</string>
+    <string name="contact_picker_all_contacts_tab_title">Todos os contatos</string>
     <!-- The text on the list item in the contact picker that allows a user to send an SMS directly
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
-    <string name="contact_list_send_to_text">Enviar para <xliff:g id="DESTINATION">%s</xliff:g></string>
+    <string name="contact_list_send_to_text">Enviar para <xliff:g id="Destination">%s</xliff:g></string>
     <string name="mediapicker_cameraChooserDescription">Capturar imagens ou vídeo</string>
     <string name="mediapicker_galleryChooserDescription">Escolher imagens deste dispositivo</string>
     <string name="mediapicker_audioChooserDescription">Gravar áudio</string>
-    <string name="mediapicker_gallery_title">Escolher fotografia</string>
-    <string name="mediapicker_gallery_item_selected_content_description">O ficheiro multimédia está selecionado.</string>
-    <string name="mediapicker_gallery_item_unselected_content_description">O ficheiro multimédia está desselecionado.</string>
-    <string name="mediapicker_gallery_title_selection"><xliff:g id="COUNT">%d</xliff:g> selecionado(s)</string>
+    <string name="mediapicker_gallery_item_selected_content_description">A mídia está selecionada.</string>
+    <string name="mediapicker_gallery_item_unselected_content_description">A mídia não está selecionada.</string>
+    <string name="mediapicker_gallery_title_selection"><xliff:g id="count">%d </xliff:g> selecionados</string>
     <!-- example: "image January 17 2015 1 59 pm" -->
-    <string name="mediapicker_gallery_image_item_description">imagem de <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
+    <string name="mediapicker_gallery_image_item_description">imagem de <xliff:g id="Date">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
     <string name="mediapicker_gallery_image_item_description_no_date">imagem</string>
     <string name="mediapicker_audio_title">Gravar áudio</string>
-    <string name="action_share">Partilhar</string>
+    <string name="action_share">Compartilhar</string>
     <string name="posted_just_now">"Agora mesmo"</string>
     <string name="posted_now">"Agora"</string>
     <!-- Abbreviated message to express that something occurred some number of minutes in the past (e.g., 5 minutes ago). -->
     <plurals name="num_minutes_ago">
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> min</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> minuto</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos</item>
     </plurals>
     <!-- Abbreviated message to express that something occurred some number of hours in the past (e.g., 5 hours ago). -->
     <plurals name="num_hours_ago">
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> hora</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> horas</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> hora</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> horas</item>
     </plurals>
     <!-- Abbreviated message to express that something occurred some number of days in the past (e.g., 5 days ago). -->
     <plurals name="num_days_ago">
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> dia</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> dias</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> dia</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> dias</item>
     </plurals>
     <!--
         Plurals used for the duration in free sms storage action and confirm strings above
@@ -80,59 +79,59 @@
         <!-- Singular case -->
         <item quantity="one">uma semana</item>
         <!-- Plural case -->
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> semanas</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> semanas</item>
     </plurals>
     <plurals name="month_count">
         <!-- Singular case -->
         <item quantity="one">um mês</item>
         <!-- Plural case -->
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> meses</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> meses</item>
     </plurals>
     <plurals name="year_count">
         <!-- Singular case -->
         <item quantity="one">um ano</item>
         <!-- Plural case -->
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> anos</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> anos</item>
     </plurals>
     <!-- Title of the class-0 message activity. -->
     <string name="class_0_message_activity">Mensagem de classe 0</string>
-    <string name="save">Guardar</string>
+    <string name="save">Salvar</string>
     <!-- Text for SMS storage low text, when auto delete is enabled -->
-    <string name="sms_storage_low_auto_delete_enabled_dialog_text">O dispositivo tem pouco espaço disponível. A aplicação Mensagens elimina automaticamente mensagens mais antigas para libertar espaço.</string>
+    <string name="sms_storage_low_auto_delete_enabled_dialog_text">O dispositivo tem pouco espaço disponível. O aplicativo Mensagens elimina automaticamente mensagens mais antigas para liberar espaço.</string>
     <!-- Title for SMS storage low notification and dialog. Must match the framework's notification title, i.e. //frameworks/base/core/res/res/values/strings.xml#low_internal_storage_view_title -->
     <string name="sms_storage_low_title">Está quase sem espaço de armazenamento</string>
     <!-- Text for SMS storage low notification and dialog -->
-    <string name="sms_storage_low_text">A aplicação Mensagens pode não enviar ou receber mensagens até que exista mais espaço disponível no dispositivo.</string>
+    <string name="sms_storage_low_text">O aplicativo Mensagens pode não enviar ou receber mensagens até que exista mais espaço disponível no dispositivo.</string>
     <!-- Ticker for SMS storage low notification -->
-    <string name="sms_storage_low_notification_ticker">Armazenamento SMS reduzido. Pode ter de eliminar mensagens.</string>
+    <string name="sms_storage_low_notification_ticker">Pouco espaço para armazenamento de SMS. Talvez você precise apagar mensagens.</string>
     <!-- Title for asking the user to enter their phone number -->
     <string name="enter_phone_number_title">Confirmar número de telefone</string>
     <!-- Text for asking the user to enter their phone number -->
-    <string name="enter_phone_number_text">Este passo único assegura que a aplicação Mensagens fornece as suas mensagens de grupo corretamente.</string>
+    <string name="enter_phone_number_text">Este único passo assegura que o aplicativo Mensagens irá entregar as suas mensagens de grupo corretamente.</string>
     <!-- EditText hint for asking the user to enter their phone number -->
     <string name="enter_phone_number_hint">Número de telefone</string>
     <!-- Free SMS storage actions -->
-    <string name="delete_all_media">Eliminar todas as mensagens com multimédia</string>
-    <string name="delete_oldest_messages">Eliminar mensagens com mais de <xliff:g id="DURATION">%s</xliff:g></string>
-    <string name="auto_delete_oldest_messages">Eliminar automaticamente mensagens com mais de <xliff:g id="DURATION">%s</xliff:g></string>
+    <string name="delete_all_media">Eliminar todas as mensagens com mídia</string>
+    <string name="delete_oldest_messages">Eliminar mensagens com mais de <xliff:g id="Duration">%s</xliff:g></string>
+    <string name="auto_delete_oldest_messages">Eliminar automaticamente mensagens com mais de <xliff:g id="Duration">%s</xliff:g></string>
     <string name="ignore">Ignorar</string>
     <!-- Free SMS storage action confirm dialog message -->
-    <string name="delete_all_media_confirmation">Eliminar todas as mensagens com multimédia?</string>
-    <string name="delete_oldest_messages_confirmation">Eliminar mensagens com mais de <xliff:g id="DURATION">%s</xliff:g>?</string>
-    <string name="auto_delete_oldest_messages_confirmation">Eliminar mensagens com mais de <xliff:g id="DURATION">%s</xliff:g> e ativar eliminação automática?</string>
+    <string name="delete_all_media_confirmation">Eliminar todas as mensagens com mídia?</string>
+    <string name="delete_oldest_messages_confirmation">Eliminar mensagens com mais de <xliff:g id="Duration">%s</xliff:g>?</string>
+    <string name="auto_delete_oldest_messages_confirmation">Eliminar mensagens com mais de <xliff:g id="Duration">%s</xliff:g> e ativar eliminação automática?</string>
     <!-- ####### Strings to support the mms/sms service ####### -->
     <!-- Prefix for accessibility to indicate who the sender of a plain text message is. -->
-    <string name="incoming_text_sender_content_description"><xliff:g id="SENDER">%s</xliff:g> disse</string>
+    <string name="incoming_text_sender_content_description"><xliff:g id="sender">%s</xliff:g> disse</string>
     <string name="outgoing_text_sender_content_description">Você disse</string>
     <!-- Prefix for accessibility to indicate who the sender of text with hyperlinks, an attachment, or yet-to-be-downloaded message is. -->
-    <string name="incoming_sender_content_description">Mensagem de <xliff:g id="SENDER">%s</xliff:g></string>
-    <string name="outgoing_sender_content_description">Enviou uma mensagem</string>
+    <string name="incoming_sender_content_description">Mensagem de <xliff:g id="sender">%s</xliff:g></string>
+    <string name="outgoing_sender_content_description">Você enviou uma mensagem</string>
     <!-- While sending a message display this message. -->
-    <string name="message_status_sending">A enviar...</string>
+    <string name="message_status_sending">Enviando&#8230;</string>
     <!-- When sending a message failed display this message. -->
     <string name="message_status_send_failed">Não enviado. Toque para tentar novamente.</string>
     <!-- When retrying sending for a message. -->
-    <string name="message_status_send_retrying">Não enviado. A tentar novamente...</string>
+    <string name="message_status_send_retrying">Não enviado. A tentar novamente&#8230;</string>
     <!-- When showing resend action display this message. -->
     <string name="message_status_resend">Reenviar ou eliminar</string>
     <!-- When sending a message to an emergency number failed display this message in the conversation. -->
@@ -152,13 +151,13 @@
     <!-- Timestamp line for MMS which is selected. -->
     <string name="message_status_download_action">Transferir ou eliminar</string>
     <!-- Timestamp line to display while downloading a message. -->
-    <string name="message_status_downloading">A transferir...</string>
+    <string name="message_status_downloading">A transferir&#8230;</string>
     <!-- Timestamp line for MMS for expired or invalid message. -->
     <string name="message_status_download_error">Mensagem expirada ou não disponível</string>
     <!-- Display this info line with an MMS notification -->
-    <string name="mms_info">tamanho: <xliff:g id="MESSAGESIZE">%1$s</xliff:g>, data de validade: <xliff:g id="MESSAGEEXPIRE">%2$s</xliff:g></string>
+    <string name="mms_info">tamanho: <xliff:g id="messageSize">%1$s</xliff:g>, data de validade: <xliff:g id="messageExpire">%2$s</xliff:g></string>
     <!-- While sending a message, if it has invalid recipient, display this message. -->
-    <string name="invalid_destination">Não é possível enviar. O destinatário não é válido.</string>
+    <string name="invalid_destination">Não é possível enviar. O destinatário é inválido.</string>
     <!-- While sending a message, this error is expected to be generated when user does not have
          MMS enabled on his account. [CHAR LIMIT=NONE] -->
     <string name="service_not_activated">Serviço não ativado na rede</string>
@@ -176,33 +175,33 @@
     <string name="delivered_status_content_description">Entregue</string>
     <!-- When an error occurs downloading a new message, display this message.
          An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
-    <string name="dl_failure_notification">Não foi possível transferir a mensagem <xliff:g id="SUBJECT">%1$s</xliff:g> de <xliff:g id="FROM">%2$s</xliff:g>.</string>
+    <string name="dl_failure_notification">Não foi possível transferir a mensagem <xliff:g id="Subject">%1$s</xliff:g> de <xliff:g id="From">%2$s</xliff:g>.</string>
     <!-- When a database error occurs due to low memory this toast is shown. -->
     <string name="low_memory">Não foi possível concluir a operação da base de dados devido a pouca memória</string>
     <!-- notification line 1 for "there are some failed messages" -->
     <string name="notification_send_failures_line1_singular">Mensagem não enviada</string>
     <!-- notification line 1 for "there are some failed messages" -->
-    <string name="notification_send_failures_line1_plural">Algumas mensagens não enviadas na aplicação Mensagens</string>
+    <string name="notification_send_failures_line1_plural">Algumas mensagens não enviadas em mensagens</string>
     <plurals name="notification_send_failures">
-        <item quantity="one"><xliff:g id="MESSAGES_0">%d</xliff:g> mensagens numa conversa</item>
-        <item quantity="other"><xliff:g id="MESSAGES_1">%d</xliff:g> mensagens em <xliff:g id="CONVERSATIONS">%d</xliff:g> conversas</item>
+        <item quantity="one"><xliff:g id="messages">%d</xliff:g> mensagens em uma conversa</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> mensagens em <xliff:g id="conversations">%d</xliff:g> conversas</item>
     </plurals>
     <!-- notification line 1 for download failed -->
     <string name="notification_download_failures_line1_singular">Mensagem não transferida</string>
     <!-- notification line 1 for multiple downloads failed -->
-    <string name="notification_download_failures_line1_plural">Algumas mensagens não transferidas na aplicação Mensagens</string>
+    <string name="notification_download_failures_line1_plural">Algumas mensagens não foram transferidas na aplicação Mensagens</string>
     <plurals name="notification_download_failures">
-        <item quantity="one"><xliff:g id="MESSAGES_0">%d</xliff:g> mensagens numa conversa</item>
-        <item quantity="other"><xliff:g id="MESSAGES_1">%d</xliff:g> mensagens em <xliff:g id="CONVERSATIONS">%d</xliff:g> conversas</item>
+        <item quantity="one"><xliff:g id="messages">%d</xliff:g> mensagens em uma conversa</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> mensagens em <xliff:g id="conversations">%d</xliff:g> conversas</item>
     </plurals>
     <!-- Notification title when emergency SMS (e.g. to 911) fails to send -->
-    <string name="notification_emergency_send_failure_line1">Mensagem para <xliff:g id="NUMBER">%1$s</xliff:g> não enviada</string>
+    <string name="notification_emergency_send_failure_line1">Mensagem para <xliff:g id="Number">%1$s</xliff:g> não enviada</string>
     <!-- Notification content when emergency SMS fails to send -->
-    <string name="notification_emergency_send_failure_line2">Faça uma chamada de voz para os serviços de emergência. Neste momento, não foi possível entregar a sua mensagem de texto para o número <xliff:g id="NUMBER">%1$s</xliff:g>.</string>
+    <string name="notification_emergency_send_failure_line2">Por favor, faça uma chamada de voz para os serviços de emergência. Sua mensagem de texto para<xliff:g id="number">%1$s</xliff:g> não pôde ser entregue neste momento.    </string>
     <!-- notification line 1 for new message notification on the lock screen -->
     <plurals name="notification_new_messages">
         <item quantity="one">Nova mensagem</item>
-        <item quantity="other"><xliff:g id="MESSAGES">%d</xliff:g> novas mensagens</item>
+        <item quantity="other"><xliff:g id="messages">%d</xliff:g> Nova mensagem</item>
     </plurals>
     <!-- Text for starting a new conversation button in the compose UI -->
     <string name="start_conversation">Iniciar</string>
@@ -210,36 +209,36 @@
     <string name="camera_error_unknown">Câmara não disponível</string>
     <string name="camera_error_video_init_fail">Captura de vídeo não disponível</string>
     <!-- Error message when we are unable to write a picture or video file because of an error writing to storage (usually because insufficient space) -->
-    <string name="camera_error_storage_fail">Não é possível guardar multimédia</string>
+    <string name="camera_error_storage_fail">Não foi possível salvar a mídia</string>
     <string name="camera_error_failure_taking_picture">Não é possível tirar a fotografia</string>
     <!-- Content description text for Back button on the action bar -->
-    <string name="back">Anterior</string>
+    <string name="back">Voltar</string>
     <!-- Action menu title for showing archived conversations -->
-    <string name="action_menu_show_archived">Arquivadas</string>
+    <string name="action_menu_show_archived">Arquivado</string>
     <!-- Action menu title for deleting selected conversations in conversation list -->
-    <string name="action_delete">Eliminar</string>
+    <string name="action_delete">Apagar</string>
     <!-- Action menu title for archiving selected conversations in conversation list -->
     <string name="action_archive">Arquivar</string>
     <!-- Action menu title for unarchiving selected conversations in conversation list -->
-    <string name="action_unarchive">Retirar do arquivo</string>
+    <string name="action_unarchive">Desarquivar</string>
     <!-- Action menu title for adding the contacts for the selected conversations in conversation list -->
     <string name="action_add_contact">Adicionar contacto</string>
     <!-- Action menu title for downloading failed message selected in conversation -->
-    <string name="action_download">Transferir</string>
+    <string name="action_download">Baixar</string>
     <!-- Action menu title for sending failed message selected in conversation -->
     <string name="action_send">Enviar</string>
     <!-- Action menu title for deleting failed message selected in conversation -->
-    <string name="action_delete_message">Eliminar</string>
-    <string name="delete_message_confirmation_dialog_title">Pretende eliminar esta mensagem?</string>
-    <string name="delete_message_confirmation_dialog_text">Esta ação não pode ser anulada.</string>
-    <string name="delete_message_confirmation_button">Eliminar</string>
+    <string name="action_delete_message">Apagar</string>
+    <string name="delete_message_confirmation_dialog_title">Apagar esta mensagem?</string>
+    <string name="delete_message_confirmation_dialog_text">Esta ação não pode ser desfeita.</string>
+    <string name="delete_message_confirmation_button">Apagar</string>
     <!-- Alert dialog title to accept or decline deleting conversation(s). -->
     <plurals name="delete_conversations_confirmation_dialog_title">
-        <item quantity="one">Pretende eliminar esta conversa?</item>
-        <item quantity="other">Pretende eliminar estas conversas?</item>
+        <item quantity="one">Apagar esta conversa?</item>
+        <item quantity="other">Apagar estas conversas?</item>
     </plurals>
     <!-- Alert dialog accept deleting this conversation button. -->
-    <string name="delete_conversation_confirmation_button">Eliminar</string>
+    <string name="delete_conversation_confirmation_button">Apagar</string>
     <!-- Alert dialog decline deleting this conversation button. -->
     <string name="delete_conversation_decline_button">Cancelar</string>
     <!-- Hint text for the recipient chips text box when it's empty -->
@@ -249,57 +248,57 @@
     <!-- Action menu title for confirming multiple selection in gallery image picker -->
     <string name="action_confirm_multiselect">Confirmar seleção</string>
     <!-- Text for showing there are more items in the attachments than is shown (e.g. "+2") -->
-    <string name="attachment_more_items">+<xliff:g id="COUNT">%d</xliff:g></string>
+    <string name="attachment_more_items">+<xliff:g id="Count">%d</xliff:g></string>
     <!-- Failed to start recording audio -->
     <string name="audio_recording_start_failed">Não é possível gravar áudio. Tente novamente.</string>
     <!-- Failed to replay recorded audio -->
     <string name="audio_recording_replay_failed">Não é possível reproduzir áudio. Tente novamente.</string>
     <!-- Error occurred while recording audio -->
-    <string name="audio_recording_error">Não foi possível guardar áudio. Tente novamente.</string>
+    <string name="audio_recording_error"> Não foi possível salvar áudio. Tente novamente.</string>
     <!-- Hint text on the audio recorder that instructs user how to start recording -->
-    <string name="audio_picker_hint_text">Toque sem largar</string>
+    <string name="audio_picker_hint_text">Toque sem soltar</string>
     <!-- An enumeration comma for separating multiple names in notifications. [CHAR LIMIT=2] -->
-    <string name="enumeration_comma">, </string>
+    <string name="enumeration_comma">,\u0020</string>
     <!-- Separator between parts of a notification in each line of an inboxStyle notification. [CHAR LIMIT=2] -->
     <string name="notification_separator">\u0020\u0020</string>
     <!-- Separator between title and content in notification ticker -->
-    <string name="notification_ticker_separator">: </string>
+    <string name="notification_ticker_separator">: \u0020</string>
     <!-- Separator between title and content in notifications -->
     <string name="notification_space_separator">\u0020\u0020</string>
     <!-- Shown in notifications when there's a picture. [CHAR LIMIT=25] -->
     <string name="notification_picture">Imagem</string>
     <!-- Shown in notifications when there's an audio clip. [CHAR LIMIT=25] -->
-    <string name="notification_audio">Clipe de áudio</string>
+    <string name="notification_audio">￼Clipe de áudio</string>
     <!-- Shown in notifications when there's a video. [CHAR LIMIT=25] -->
     <string name="notification_video">Vídeo</string>
     <!-- Shown in notifications when there's a vcard. [CHAR LIMIT=25] -->
-    <string name="notification_vcard">Cartão de contacto</string>
+    <string name="notification_vcard">Contatos</string>
     <!-- Notification action label for download MMS when set to manual downloads. [CHAR LIMIT=15] -->
-    <string name="notification_download_mms">Transferir</string>
+    <string name="notification_download_mms">Baixar</string>
     <!-- Notification action label for SMS reply (visible on wearable device only). [CHAR LIMIT=15] -->
-    <string name="notification_reply_via_sms">Responder por SMS</string>
+    <string name="notification_reply_via_sms">Responder via SMS</string>
     <!-- Notification action label for MMS reply (visible on wearable device only). [CHAR LIMIT=15] -->
-    <string name="notification_reply_via_mms">Responder por MMS</string>
+    <string name="notification_reply_via_mms">Responder via MMS</string>
     <!-- Notification voice reply prompt (visible on wearable device only). [CHAR LIMIT=15] -->
     <string name="notification_reply_prompt">Responder</string>
     <!-- The bottom line on a wearable notification that shows how many participants in the conversation -->
     <plurals name="wearable_participant_count">
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> participante</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> participantes</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> participante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> participantes</item>
     </plurals>
     <!-- Shown in the Android Wear conversation log as the sender for outgoing messages,
          when we don't know the user's real name (e.g. no "Me" contact on the phone). -->
     <string name="unknown_self_participant">Eu</string>
     <!-- The text of the toast/snack message shown when a contact is blocked -->
-    <string name="blocked_toast_message">Contacto bloqueado e arquivado</string>
+    <string name="blocked_toast_message">Contato bloqueado &amp; arquivado(s)</string>
     <!-- The text of the toast/snack message shown when a contact is unblocked -->
-    <string name="unblocked_toast_message">Contacto desbloqueado e não arquivado</string>
+    <string name="unblocked_toast_message">Contato desbloqueado &amp; desarquivado(s)</string>
     <!-- The text of the toast/snack message shown when the selected conversation(s) are archived.
          Displays the number of converstions archived -->
-    <string name="archived_toast_message"><xliff:g id="COUNT">%d</xliff:g> arquivada(s)</string>
+    <string name="archived_toast_message"><xliff:g id="count">%d</xliff:g> arquivada(s)</string>
     <!-- The text of the toast/snack message shown when the selected conversation(s) are unarchived.
          Displays the number of conversations unarchived -->
-    <string name="unarchived_toast_message"><xliff:g id="COUNT">%d</xliff:g> não arquivada(s)</string>
+    <string name="unarchived_toast_message"><xliff:g id="count">%d</xliff:g> não arquivada(s)</string>
     <!-- The text of the toast/snack message shown when a notifications turned off for selected conversations -->
     <string name="notification_off_toast_message">Notificações desativadas</string>
     <!-- The text of the toast/snack message shown when a notifications turned on for selected conversations -->
@@ -307,84 +306,84 @@
     <!-- Toast shown when the user tries to send a message, and then sets Bugle as the default SMS app. -->
     <string name="toast_after_setting_default_sms_app_for_message_send">Tudo definido. Toque novamente em Enviar.</string>
     <!-- Toast shown when the user successfully sets Bugle as the default SMS app. -->
-    <string name="toast_after_setting_default_sms_app">A aplicação Mensagens foi definida com êxito como a aplicação de SMS predefinida.</string>
+    <string name="toast_after_setting_default_sms_app">Definido com êxito como o aplicativo de SMS padrão.</string>
     <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
     <plurals name="attachment_preview_close_content_description">
-        <item quantity="one">Rejeitar anexo</item>
-        <item quantity="other">Rejeitar anexos</item>
+        <item quantity="one">Descartar anexo</item>
+        <item quantity="other">Descartar anexos</item>
     </plurals>
     <string name="audio_attachment_content_description">Anexo de áudio</string>
     <string name="audio_play_content_description">Reproduzir anexo de áudio</string>
-    <string name="audio_pause_content_description">Interromper</string>
+    <string name="audio_pause_content_description">Pausar</string>
     <!-- Accessibility announcement for an incoming message -->
-    <string name="incoming_message_announcement">Mensagem de <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>.</string>
+    <string name="incoming_message_announcement">Mensagem de <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>.</string>
     <!-- Accessibility description for conversation list for 1:1 conversations -->
-    <string name="one_on_one_incoming_failed_message_prefix">Mensagem falhada de <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
-    <string name="one_on_one_incoming_successful_message_prefix">Mensagem de <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
-    <string name="one_on_one_outgoing_draft_message_prefix">Mensagem não enviada para <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
-    <string name="one_on_one_outgoing_sending_message_prefix">A enviar mensagem para <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
-    <string name="one_on_one_outgoing_failed_message_prefix">Mensagem falhada para <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
-    <string name="one_on_one_outgoing_successful_message_prefix">Mensagem para <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
+    <string name="one_on_one_incoming_failed_message_prefix">Falha na mensagem de <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_incoming_successful_message_prefix">Mensagem de <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_draft_message_prefix">Mensagem não enviada para <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_sending_message_prefix">Enviando mensagem para <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_failed_message_prefix">Falha na mensagem para <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="one_on_one_outgoing_successful_message_prefix">Mensagem para <xliff:g id="contact">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
     <!-- Accessibility description for conversation list for group conversations -->
-    <string name="group_incoming_failed_message_prefix">Mensagem falhada de <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>. <xliff:g id="GROUPINFO">%s</xliff:g>.</string>
-    <string name="group_incoming_successful_message_prefix">Mensagem de <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>. <xliff:g id="GROUPINFO">%s</xliff:g>.</string>
-    <string name="group_outgoing_draft_message_prefix">Mensagem não enviada para <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
-    <string name="group_outgoing_sending_message_prefix">A enviar mensagem para <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
-    <string name="group_outgoing_failed_message_prefix">Mensagem falhada para <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
-    <string name="group_outgoing_successful_message_prefix">Mensagem para <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Hora: <xliff:g id="TIME">%s</xliff:g>.</string>
+    <string name="group_incoming_failed_message_prefix">Falha na mensagem de <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>. <xliff:g id="groupInfo">%4$s</xliff:g>.</string>
+    <string name="group_incoming_successful_message_prefix">Mensagem de <xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>. <xliff:g id="groupInfo">%4$s</xliff:g>.</string>
+    <string name="group_outgoing_draft_message_prefix">Mensagem não enviada para <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_sending_message_prefix">Enviando mensagem para <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_failed_message_prefix">Falha na mensagem para <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
+    <string name="group_outgoing_successful_message_prefix">Mensagem para <xliff:g id="group">%1$s</xliff:g>: <xliff:g id="message">%2$s</xliff:g>. Horário: <xliff:g id="time">%3$s</xliff:g>.</string>
     <!-- Accessibility description for conversation list for failed messages -->
     <string name="failed_message_content_description">Mensagem falhada. Toque para tentar novamente.</string>
     <!-- Accessibility name for a group conversation -->
-    <string name="group_conversation_description">Conversa com <xliff:g id="PARTICIPANTS">%s</xliff:g></string>
+    <string name="group_conversation_description">Conversa com <xliff:g id="participants">%s</xliff:g></string>
     <!-- Accessibility : text read on the small X icon on the subject editor -->
-    <string name="delete_subject_content_description">Eliminar assunto</string>
+    <string name="delete_subject_content_description">Excluir assunto</string>
     <string name="camera_switch_to_video_mode">Capturar vídeo</string>
     <string name="camera_switch_to_still_mode">Capturar uma imagem fixa</string>
-    <string name="camera_take_picture">Tirar fotografia</string>
-    <string name="camera_start_recording">Começar a gravar vídeo</string>
-    <string name="camera_switch_full_screen">Mudar para a câmara de ecrã completo</string>
+    <string name="camera_take_picture">Tirar Foto</string>
+    <string name="camera_start_recording">Começar a gravação de vídeo</string>
+    <string name="camera_switch_full_screen">Alternar para a câmera em tela cheia</string>
     <string name="camera_switch_camera_facing">Alternar entre as câmaras frontal e traseira</string>
     <string name="camera_stop_recording">Parar gravação e anexar vídeo</string>
     <string name="camera_cancel_recording">Parar a gravação de vídeo</string>
     <string name="photo_view_activity_title">Fotos das Mensagens</string>
     <plurals name="photos_saved_to_album">
-        <item quantity="one"><xliff:g id="QUANTITY_0">%d</xliff:g> foto guardada no álbum \"<xliff:g id="ALBUMNAME_1">%s</xliff:g>\"</item>
-        <item quantity="other"><xliff:g id="QUANTITY_2">%d</xliff:g> fotos guardadas no álbum \"<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> fotos salvas em \"<xliff:g id="albumName">%s</xliff:g>\" álbum</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> fotos salva em \"<xliff:g id="albumName">%s</xliff:g>\" álbum</item>
     </plurals>
     <plurals name="videos_saved_to_album">
-        <item quantity="one"><xliff:g id="QUANTITY_0">%d</xliff:g> vídeo guardado no álbum \"<xliff:g id="ALBUMNAME_1">%s</xliff:g>\"</item>
-        <item quantity="other"><xliff:g id="QUANTITY_2">%d</xliff:g> vídeos guardados no álbum \"<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g>vídeo salvo em \"<xliff:g id="albumName">%s</xliff:g>\" álbum</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g>vídeos salvo em \"<xliff:g id="albumName">%s</xliff:g>\" álbum</item>
     </plurals>
     <plurals name="attachments_saved_to_album">
-        <item quantity="one"><xliff:g id="QUANTITY_0">%d</xliff:g> anexo guardado no álbum \"<xliff:g id="ALBUMNAME_1">%s</xliff:g>\"</item>
-        <item quantity="other"><xliff:g id="QUANTITY_2">%d</xliff:g> anexos guardados no álbum \"<xliff:g id="ALBUMNAME_3">%s</xliff:g>\"</item>
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> anexo salvo em \"<xliff:g id="albumName">%s</xliff:g>\" álbum</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> anexos salvo em \"<xliff:g id="albumName">%s</xliff:g>\" álbum</item>
     </plurals>
     <plurals name="attachments_saved_to_downloads">
-        <item quantity="one"><xliff:g id="QUANTITY_0">%d</xliff:g> anexo guardado em \"Transferências\"</item>
-        <item quantity="other"><xliff:g id="QUANTITY_1">%d</xliff:g> anexos guardados em \"Transferências\"</item>
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> anexo salvo em \"Downloads\"</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> anexos salvo em \"Downloads\"</item>
     </plurals>
     <plurals name="attachments_saved">
-        <item quantity="one"><xliff:g id="QUANTITY_0">%d</xliff:g> anexo guardado</item>
-        <item quantity="other"><xliff:g id="QUANTITY_1">%d</xliff:g> anexos guardados</item>
+        <item quantity="one"><xliff:g id="quantity">%d</xliff:g> anexo salvo</item>
+        <item quantity="other"><xliff:g id="quantity">%d</xliff:g> anexos salvo</item>
     </plurals>
     <plurals name="attachment_save_error">
-        <item quantity="one">Não foi possível guardar <xliff:g id="QUANTITY_0">%d</xliff:g> anexo</item>
-        <item quantity="other">Não foi possível guardar <xliff:g id="QUANTITY_1">%d</xliff:g> anexos</item>
+        <item quantity="one">Não foi possível salvar <xliff:g id="quantity">%d</xliff:g> anexo</item>
+        <item quantity="other">Não foi possível salvar <xliff:g id="quantity">%d</xliff:g> anexos</item>
     </plurals>
     <!-- Description shown in the download manager for an attachment that the user manually saved -->
-    <string name="attachment_file_description">Anexo de MMS guardado</string>
+    <string name="attachment_file_description">Anexo de MMS salvo</string>
     <!-- Title for the preferences/settings activity -->
-    <string name="settings_activity_title">Definições</string>
+    <string name="settings_activity_title">Configurações</string>
     <!-- Title for the archived conversations activity -->
-    <string name="archived_activity_title">Arquivadas</string>
+    <string name="archived_activity_title">Arquivados</string>
     <!-- Action title: Close -->
     <string name="action_close">Fechar</string>
     <!-- Preference category: MMS messaging -->
     <string name="mms_messaging_category_pref_title">MMS</string>
     <!-- Preference category: Advanced -->
-    <string name="advanced_category_pref_title">Avançadas</string>
+    <string name="advanced_category_pref_title">Avançado</string>
     <!-- Preference category: Debug -->
-    <string name="debug_category_pref_title">Depurar</string>
+    <string name="debug_category_pref_title">Depurar/Debug</string>
     <!-- Title for the preference for whether or to notify the user of new messages -->
     <string name="notifications_pref_title">Notificações</string>
     <!-- Title for the notification sound preference -->
@@ -392,32 +391,32 @@
     <string name="blocked_pref_title">Bloqueado</string>
     <!-- Title for the preference for whether or not to request/show delivery reports for SMS -->
     <string name="delivery_reports_pref_title">Relatórios de entrega de SMS</string>
-    <string name="delivery_reports_pref_summary">Solicitar um relatório de entrega para cada SMS enviada</string>
+    <string name="delivery_reports_pref_summary">Solicitar um relatório de entrega para cada SMS que você enviar</string>
     <string name="auto_retrieve_mms_pref_title">Recuperação automática</string>
-    <string name="auto_retrieve_mms_pref_summary">Recuperar automaticamente mensagens MMS</string>
+    <string name="auto_retrieve_mms_pref_summary">Baixar automaticamente mensagens MMS</string>
     <!-- Title for the preference for whether or not to auto-retrieve MMS when roaming -->
-    <string name="auto_retrieve_mms_when_roaming_pref_title">Recuperar automat. em roaming</string>
-    <string name="auto_retrieve_mms_when_roaming_pref_summary">Obter automaticamente MMS em roaming</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_title">Baixar automaticamente em roaming</string>
+    <string name="auto_retrieve_mms_when_roaming_pref_summary">Baixar automaticamente mensagens MMS em roaming</string>
     <string name="group_mms_pref_title">Mensagens de grupo</string>
     <string name="group_mms_pref_summary">Utilizar MMS para enviar uma única mensagem quando houver vários destinatários</string>
     <!-- Preference title: SMS disabled (Messaging is not default SMS app) -->
-    <string name="sms_disabled_pref_title">Aplicação de SMS predefinida</string>
+    <string name="sms_disabled_pref_title">Aplicativo de SMS padrão</string>
     <!-- Preference title: SMS enabled (Messaging is the default SMS app) -->
-    <string name="sms_enabled_pref_title">Aplicação de SMS predefinida</string>
+    <string name="sms_enabled_pref_title">Aplicativo de SMS padrão</string>
     <!-- Preference summary: Current default SMS app -->
     <string name="default_sms_app"><xliff:g id="app_name">%s</xliff:g></string>
     <!-- Preference title: MMS phone number -->
-    <string name="mms_phone_number_pref_title">O seu número de telefone</string>
+    <string name="mms_phone_number_pref_title">Seu número de telefone</string>
     <!-- Display text for phone number preference when the number is unknown -->
     <string name="unknown_phone_number_pref_display_value">Desconhecido</string>
     <!-- Title for the preference for playing a message send sound -->
     <string name="send_sound_pref_title">Sons de mensagem enviada</string>
-    <string name="dump_sms_pref_title">Criar cópia de segurança de SMS</string>
-    <string name="dump_sms_pref_summary">A cópia de segurança recebeu dados SMS não processados no ficheiro de armazenamento externo</string>
-    <string name="dump_mms_pref_title">Criar cópia de segurança de MMS</string>
-    <string name="dump_mms_pref_summary">A cópia de segurança recebeu dados MMS não processados no ficheiro de armazenamento externo</string>
+    <string name="dump_sms_pref_title">Cópia de segurança de SMS</string>
+    <string name="dump_sms_pref_summary">Cópia de segurança de dados brutos de SMS recebidos em arquivo no armazenamento externo</string>
+    <string name="dump_mms_pref_title">Cópia de segurança de MMS</string>
+    <string name="dump_mms_pref_summary">Cópia de segurança de dados brutos de MMS recebidos em arquivo no armazenamento externo</string>
     <!-- Strings for dump sms/mms dialog -->
-    <string name="wireless_alerts_title">Alertas sem fios</string>
+    <string name="wireless_alerts_title">Alertas de redes sem fios</string>
     <!-- Title of long press menu on an individual message. -->
     <string name="message_context_menu_title">Opções da mensagem</string>
     <!-- Menu item to copy message text -->
@@ -425,33 +424,33 @@
     <!-- Title of long press menu for details about an individual message. -->
     <string name="message_context_menu_view_details">Ver detalhes</string>
     <!-- Title of long press menu for deleting an individual message. -->
-    <string name="message_context_menu_delete_message">Eliminar</string>
+    <string name="message_context_menu_delete_message">Deletar</string>
     <!-- Title of long press menu for forwarding an individual message. -->
     <string name="message_context_menu_forward_message">Encaminhar</string>
     <!-- Title of "Message details" dialog -->
     <string name="message_details_title">Detalhes da mensagem</string>
     <!-- Label in "Message details" dialog -->
-    <string name="message_type_label">Tipo: </string>
+    <string name="message_type_label">Tipo: \u0020</string>
     <!-- "Type" value in "Message details" dialog -->
     <string name="text_message">Mensagem de texto</string>
     <!-- "Type" value in "Message details" dialog -->
-    <string name="multimedia_message">Mensagem multimédia</string>
+    <string name="multimedia_message">Mensagem multimídia</string>
     <!-- Label in "Message details" dialog showing who sent the message. -->
-    <string name="from_label">De: </string>
+    <string name="from_label">De: \u0020</string>
     <!-- Label in "Message details" dialog -->
-    <string name="to_address_label">Para: </string>
+    <string name="to_address_label">Para: \u0020</string>
     <!-- Label in "Message details" dialog -->
-    <string name="sent_label">Enviadas: </string>
+    <string name="sent_label">Enviada: \u0020</string>
     <!-- Label in "Message details" dialog -->
-    <string name="received_label">Recebidas: </string>
+    <string name="received_label">Recebido: \u0020</string>
     <!-- Label in "Message details" dialog -->
-    <string name="subject_label">Assunto: </string>
+    <string name="subject_label">Assunto: \u0020</string>
     <!-- Label in "Message details" dialog -->
-    <string name="message_size_label">Tamanho: </string>
+    <string name="message_size_label">Tamanho: \u0020</string>
     <!-- Label in "Message details" dialog -->
-    <string name="priority_label">Prioridade: </string>
+    <string name="priority_label">Prioridade: \u0020</string>
     <!-- Label in "Message details" dialog -->
-    <string name="sim_label">SIM: </string>
+    <string name="sim_label">Sim:\u0020</string>
     <!-- "Priority" value in "Message details" dialog -->
     <string name="priority_high">Alta</string>
     <!-- "Priority" value in "Message details" dialog -->
@@ -459,17 +458,17 @@
     <!-- "Priority" value in "Message details" dialog -->
     <string name="priority_low">Baixa</string>
     <!-- SIM identified using the slot number. e.g. SIM 1 -->
-    <string name="sim_slot_identifier">SIM <xliff:g id="SIM_SLOT_NUMBER">%s</xliff:g></string>
+    <string name="sim_slot_identifier">SIM <xliff:g id="sim_slot_number">%s </xliff:g></string>
     <!-- Sender to be used if the sender address has been hidden -->
     <string name="hidden_sender_address">Endereço do remetente oculto</string>
     <!-- Shows when the user attempts to send message while some attachment(s) haven't finished loading -->
-    <string name="cant_send_message_while_loading_attachments">Não é possível enviar a mensagem enquanto os anexos estiverem a ser carregados.</string>
+    <string name="cant_send_message_while_loading_attachments">Não é possível enviar a mensagem enquanto os anexos estiverem sendo carregados.</string>
     <!-- Notifies the user when an attachment fails to load -->
     <string name="fail_to_load_attachment">Não é possível carregar o anexo. Tente novamente.</string>
     <!-- Shows when the user attempts to send message when there is no active subscription -->
     <string name="cant_send_message_without_active_subscription">A rede não está pronta. Tente novamente.</string>
-    <string name="chips_text_delete_button_content_description">Eliminar texto</string>
-    <string name="numeric_text_keyboard_toggle_button_content_description">Alternar entre a introdução de texto e números</string>
+    <string name="chips_text_delete_button_content_description">Excluir texto</string>
+    <string name="numeric_text_keyboard_toggle_button_content_description">Alternar entre inserir texto e números</string>
     <string name="add_more_participants_button_content_description">Adicionar mais participantes</string>
     <string name="confrim_participants_button_content_description">Confirmar participantes</string>
     <string name="start_new_conversation">Iniciar nova conversa</string>
@@ -477,11 +476,11 @@
     <string name="gallery_checkbox_content_description">Selecionar este item</string>
     <string name="video_thumbnail_view_play_button_content_description">Reproduzir vídeo</string>
     <!-- Option menu item in the conversation view that lets user view list of conversation participants and change options -->
-    <string name="action_people_and_options">Pessoas e opções</string>
+    <string name="action_people_and_options">Pessoas &amp; opções</string>
     <!-- Option menu item in the conversation list view and conversation view that shows debug menu -->
-    <string name="action_debug_options">Depurar</string>
+    <string name="action_debug_options">Depurar/Debug</string>
     <!-- Title for the "People and Options" activity -->
-    <string name="people_and_options_activity_title">Pessoas e opções</string>
+    <string name="people_and_options_activity_title">Pessoas &amp; opções</string>
     <!-- Title for the general settings section in the "People and options" activity -->
     <string name="general_settings_title">Geral</string>
     <!-- Title for the list of participants in the "People and options" activity -->
@@ -491,7 +490,7 @@
     <!-- The hint text shown in the message compose input box prompting the user to send a message -->
     <string name="compose_message_view_hint_text">Enviar mensagem</string>
     <!-- The hint text shown in the message compose input box prompting the user to send a message when there are multiple SIMs. -->
-    <string name="compose_message_view_hint_text_multi_sim">Enviar mensagem&lt;br/&gt;&lt;small&gt;de <xliff:g id="SIM_NAME">%s</xliff:g>&lt;/small&gt;</string>
+    <string name="compose_message_view_hint_text_multi_sim">Enviar mensagem&lt;br/&gt;&lt;small&gt;de <xliff:g id="sim_name">%s</xliff:g>&lt;/small&gt;</string>
     <!-- The hint text shown in the message compose input box when photo(s) is attached -->
     <plurals name="compose_message_view_hint_text_photo">
         <item quantity="one">Enviar foto</item>
@@ -499,8 +498,8 @@
     </plurals>
     <!-- The hint text shown in the message compose input box when audio recording(s) is attached -->
     <plurals name="compose_message_view_hint_text_audio">
-        <item quantity="one">Enviar ficheiro de áudio</item>
-        <item quantity="other">Enviar ficheiros de áudio</item>
+        <item quantity="one">Enviar áudio</item>
+        <item quantity="other">Enviar áudios</item>
     </plurals>
     <!-- The hint text shown in the message compose input box when video(s) is attached -->
     <plurals name="compose_message_view_hint_text_video">
@@ -509,8 +508,8 @@
     </plurals>
     <!-- The hint text shown in the message compose input box when vcard(s) is attached -->
     <plurals name="compose_message_view_hint_text_vcard">
-        <item quantity="one">Enviar cartão de contacto</item>
-        <item quantity="other">Enviar cartões de contacto</item>
+        <item quantity="one">Enviar cartão de contato</item>
+        <item quantity="other">Enviar cartões de contatos</item>
     </plurals>
     <!-- The hint text shown in the message compose input box when a single unknown attachment, or multiple different attachments are attached -->
     <plurals name="compose_message_view_hint_text_attachments">
@@ -519,11 +518,11 @@
     </plurals>
     <!-- Announcement after the user adds or removes an attachment -->
     <plurals name="attachment_changed_accessibility_announcement">
-        <item quantity="one">Um anexo pronto a enviar</item>
-        <item quantity="other"><xliff:g id="ATTACHMENT_COUNT">%d</xliff:g> anexos prontos a enviar</item>
+        <item quantity="one">Pronto para enviar um anexo</item>
+        <item quantity="other"><xliff:g id="attachment_count">%d</xliff:g> anexos prontos para enviar</item>
     </plurals>
     <!-- Action menu title in the HelpAndFeedbackFragment to let users send feedback -->
-    <string name="menu_send_feedback">Enviar comentários</string>
+    <string name="menu_send_feedback">Enviar feedback</string>
     <!-- Action menu title in the HelpAndFeedbackFragment to let users view the app in the Google Play Store -->
     <string name="menu_view_in_store">Ver na Google Play Store</string>
     <!-- Action menu title in the HelpAndFeedbackFragment to let users view the version of Bugle -->
@@ -537,31 +536,31 @@
     <!-- Reached MMS message attachment limit -->
     <string name="mms_attachment_limit_reached">Foi atingido o limite de anexos</string>
     <!-- Message attachment load failed -->
-    <string name="mms_attachment_load_failed">Falha ao carregar o anexo.</string>
+    <string name="mms_attachment_load_failed">Falha ao carregar anexo.</string>
     <!-- Alert dialog title to accept or decline adding the given phone number to your contacts. -->
-    <string name="add_contact_confirmation_dialog_title">Adicionar a Contactos?</string>
+    <string name="add_contact_confirmation_dialog_title">Adicionar aos Contatos?</string>
     <!-- Alert dialog accept adding the given phone number to your contacts button. -->
     <string name="add_contact_confirmation">Adicionar contacto</string>
     <!-- The text shown as a label before the message subject input box -->
     <string name="compose_message_view_subject_hint_text">Assunto</string>
     <!-- The text shown as a label before the message subject input box -->
-    <string name="conversation_message_view_subject_text">Assunto: </string>
+    <string name="conversation_message_view_subject_text">Assunto: \u0020</string>
     <!-- When there's a subject in an mms, the subject + message are shown in a notification -->
-    <string name="notification_subject"><xliff:g id="SUBJECT_LABEL">%s</xliff:g><xliff:g id="MESSAGETEXT">%s</xliff:g></string>
+    <string name="notification_subject"><xliff:g id="subject_label">%1$s</xliff:g><xliff:g id="messageText">%2$s</xliff:g></string>
     <!-- Text shown on contact VCard when it's being loaded -->
-    <string name="loading_vcard">A carregar o cartão de contacto</string>
+    <string name="loading_vcard">A carregar o cartão de contato</string>
     <!-- Text shown on contact VCard when it failed to load -->
-    <string name="failed_loading_vcard">Não foi possível carregar o cartão de contacto</string>
+    <string name="failed_loading_vcard">Não foi possível carregar o contato</string>
     <!-- Text shown on contact VCard promping the user to tap to view the contact -->
-    <string name="vcard_tap_hint">Ver cartão de contacto</string>
+    <string name="vcard_tap_hint">Ver cartão de contato</string>
     <!-- VCard display name for when there's more than one contact, e.g. "2 contact cards" -->
     <plurals name="vcard_multiple_display_name">
         <!-- quantity="one" is not needed by the app, but it keeps the translation pipeline happy. -->
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> contacto</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> contactos</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> contato</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> contatos</item>
     </plurals>
     <!-- Title for the activity that shows details of VCards -->
-    <string name="vcard_detail_activity_title">Cartões de contacto</string>
+    <string name="vcard_detail_activity_title">Cartões de contato</string>
     <!-- VCard label for displaying birthdays -->
     <string name="vcard_detail_birthday_label">Aniversário</string>
     <!-- VCard label for describing the Notes field of a contact. -->
@@ -578,14 +577,14 @@
     <string name="sms_disabled">SMS desativado</string>
     <!-- Snackbar message that indicates users must set Messaging as their
          default SMS application in order to send messages -->
-    <string name="requires_default_sms_app_to_send">Para enviar, defina a aplicação Mensagens como a aplicação de SMS predefinida</string>
+    <string name="requires_default_sms_app_to_send">Para enviar, defina a aplicação Mensagens como a aplicação de SMS padrão</string>
     <!-- Snackbar message that indicates users must set Messaging as their default SMS application in order to perform the requested action. -->
-    <string name="requires_default_sms_app">Defina a aplicação Mensagens como a aplicação de SMS predefinida</string>
+    <string name="requires_default_sms_app">Defina a aplicação Mensagens como a aplicação de SMS padrão</string>
     <!-- Snackbar button text to switch default SMS apps shown in snackbar. -->
     <string name="requires_default_sms_change_button">Alterar</string>
     <!-- Toast message that indicates uses must set Messaging as their
          default SMS application in order to receive replies in the app. -->
-    <string name="recommend_set_default_sms_app">Para receber mensagens, defina a aplicação Mensagens como a aplicação de SMS predefinida</string>
+    <string name="recommend_set_default_sms_app">Para receber mensagens, defina a aplicação Mensagens como a aplicação de SMS padrão</string>
     <!-- Toast message that indicates no preferred SIM was selected for sending the message -->
     <string name="no_preferred_sim_selected">Nenhum SIM preferido selecionado para o envio de mensagens SMS</string>
     <!-- Dialog message that indicates user must be granted permissions from the phone owner to
@@ -594,18 +593,18 @@
     <!-- Dialog button text that closes the application. -->
     <string name="requires_sms_permissions_close_button">OK</string>
     <!-- Toast text when creating a conversation with more participants than MMS/SMS config permits -->
-    <string name="too_many_participants">Demasiados participantes numa conversa</string>
+    <string name="too_many_participants">Muitos participantes em uma conversa</string>
     <!-- Toast text when creating a conversation with an invalid participant -->
     <plurals name="add_invalid_contact_error">
-        <item quantity="one">Contacto inválido</item>
-        <item quantity="other">Contactos inválidos</item>
+        <item quantity="one">Contato inválido</item>
+        <item quantity="other">Contatos inválido</item>
     </plurals>
     <!-- Error toast message shown when a camera image failed to attach to the message -->
     <string name="camera_media_failure">Não foi possível carregar a imagem da câmara</string>
     <!-- A message prefix to indicate the message was sent by the user. -->
-    <string name="conversation_list_item_view_sent_from_you_prefix">Utilizador: </string>
+    <string name="conversation_list_item_view_sent_from_you_prefix">Você: \u0020</string>
     <!-- A message prefix to indicate the message was sent by another user in a group conversation. -->
-    <string name="conversation_list_item_view_sent_from_other_prefix"><xliff:g id="FIRSTNAMEOFSENDER">%s</xliff:g>: </string>
+    <string name="conversation_list_item_view_sent_from_other_prefix"><xliff:g id="firstNameOfSender">%s</xliff:g>:\u0020</string>
     <!-- A message in conversation list view to indicate that the snipit text and preview is from an unsent draft. -->
     <string name="conversation_list_item_view_draft_message">Rascunho</string>
     <!-- String to show in the conversation list view when there are no messages. -->
@@ -613,7 +612,7 @@
     <!-- String to show in the archived conversation list view when there are no messages. -->
     <string name="archived_conversation_list_empty_text">As conversas arquivadas aparecem aqui</string>
     <!-- String to show in the conversation list view when we haven't synchronized the SMS database yet -->
-    <string name="conversation_list_first_sync_text">A carregar conversações...</string>
+    <string name="conversation_list_first_sync_text">Carregando conversas&#8230;</string>
     <!-- Shown in conversation as the snippet when there is no text and an attached picture. [CHAR LIMIT=25] -->
     <string name="conversation_list_snippet_picture">Imagem</string>
     <!-- Shown in conversation as the snippet when there is no text and an attached audio clip. [CHAR LIMIT=25] -->
@@ -621,26 +620,26 @@
     <!-- Shown in conversation as the snippet when there is no text and an attached video. [CHAR LIMIT=25] -->
     <string name="conversation_list_snippet_video">Vídeo</string>
     <!-- Shown in conversation as the snippet when there is no text and an attached vcard. [CHAR LIMIT=25] -->
-    <string name="conversation_list_snippet_vcard">Cartão de contacto</string>
+    <string name="conversation_list_snippet_vcard">Cartão de contato</string>
     <!-- Indicates that the current message will be sent via MMS -->
     <string name="mms_text">MMS</string>
     <!-- The string we display with the snack bar notification (very similar to toast) to undo the action that the notification is about. -->
     <string name="snack_bar_undo">Anular</string>
     <string name="snack_bar_retry">Tentar novamente</string>
     <!-- Hint text shown on the contact list when there's no contacts -->
-    <string name="contact_list_empty_text">Introduza um nome ou número de telefone do contacto para iniciar uma nova mensagem</string>
+    <string name="contact_list_empty_text">Introduza um nome ou número de telefone do contato para iniciar uma nova mensagem</string>
     <!-- Action menu title for blocking and archiving selected conversations in conversation list -->
     <string name="action_block">Bloquear</string>
     <!-- Label of block contact item in People & Options for 1:1 conversation -->
-    <string name="block_contact_title">Bloquear <xliff:g id="DESTINATION">%s</xliff:g></string>
+    <string name="block_contact_title">Bloquear <xliff:g id="destination">%s</xliff:g></string>
     <!-- Label of unblock contact item in People & Options for 1:1 conversation -->
-    <string name="unblock_contact_title">Desbloquear <xliff:g id="DESTINATION">%s</xliff:g></string>
+    <string name="unblock_contact_title">Desbloquear <xliff:g id="destination">%s</xliff:g></string>
     <!-- Title of block confirmation dialog -->
-    <string name="block_confirmation_title">Pretende bloquear <xliff:g id="DESTINATION">%s</xliff:g>?</string>
+    <string name="block_confirmation_title">Bloquear <xliff:g id="destination">%s</xliff:g>?</string>
     <!-- Text describing what happens when user is blocked via the block actionbar action -->
-    <string name="block_confirmation_message">O utilizador continuará a receber mensagens deste número, mas deixará de ser notificado. Esta conversa será arquivada.</string>
+    <string name="block_confirmation_message">Você vai continuar a receber mensagens deste número mas não ser mais notificado. Esta conversa será arquivada.</string>
     <!-- The title of the list of blocked contacts -->
-    <string name="blocked_contacts_title">Contactos bloqueados</string>
+    <string name="blocked_contacts_title">Contatos bloqueados</string>
     <!-- The message in a blocked contact item which indicates tapping will unblock -->
     <string name="tap_to_unblock_message">DESBLOQUEAR</string>
     <!-- Action menu title for viewing the list of blocked contacts -->
@@ -652,9 +651,9 @@
     <!-- Accessibility toast shown when a message is sent. -->
     <string name="send_message_success">Mensagem enviada</string>
     <!-- Error toast shown when an MMS could not be sent because mobile data was disabled. -->
-    <string name="send_message_failure_no_data">Os dados celulares estão desligados. Verifique as suas definições.</string>
+    <string name="send_message_failure_no_data">Dados de celular estão desligados. Verifique suas configurações.</string>
     <!-- Error toast shown when a message could not be sent because of airplane mode. -->
-    <string name="send_message_failure_airplane_mode">Não é possível enviar mensagens no modo de avião</string>
+    <string name="send_message_failure_airplane_mode">Não é possível enviar mensagens no modo avião</string>
     <!-- Error toast shown when a message could not be sent because of unspecified error. -->
     <string name="send_message_failure">Não foi possível enviar a mensagem</string>
     <!-- Accessibility toast shown when an MMS is downloaded. -->
@@ -662,7 +661,7 @@
     <!-- Error toast shown when an MMS could not be downloaded because mobile data was disabled. -->
     <string name="download_message_failure_no_data">Os dados celulares estão desligados. Verifique as suas definições.</string>
     <!-- Error toast shown when a message could not be downloaded because of airplane mode. -->
-    <string name="download_message_failure_airplane_mode">Não é possível transferir mensagens no modo de avião</string>
+    <string name="download_message_failure_airplane_mode">Não é possível transferir mensagens no modo avião</string>
     <!-- Error toast shown when a message could not be downloaded because of unspecified error. -->
     <string name="download_message_failure">Não foi possível transferir a mensagem</string>
     <!-- Accessibility : content description for numbers -->
@@ -677,17 +676,17 @@
     <string name="content_description_for_number_eight">Oito</string>
     <string name="content_description_for_number_nine">Nove</string>
     <!-- Error message which shows the user a carrier specific error code such as "Unable to send message: xxxxx error 97" -->
-    <string name="carrier_send_error">Não é possível enviar a mensagem com <xliff:g id="CARRIERNAME">%1$s</xliff:g>, erro <xliff:g id="ERRORCODE">%2$d</xliff:g></string>
-    <string name="carrier_send_error_unknown_carrier">Não é possível enviar a mensagem com operador desconhecido, erro <xliff:g id="ERRORCODE">%1$d</xliff:g></string>
+    <string name="carrier_send_error">Não é possível enviar a mensagem com <xliff:g id="carrierName">%1$s</xliff:g>, erro <xliff:g id="errorCode">%2$d</xliff:g></string>
+    <string name="carrier_send_error_unknown_carrier">Não é possível enviar a mensagem com operadora desconhecida, erro <xliff:g id="errorCode">%1$d</xliff:g></string>
     <!-- Text prepended to the subject of a forwarded message -->
-    <string name="message_fwd">Enc: <xliff:g id="SUBJECT">%s</xliff:g></string>
+    <string name="message_fwd">Enc: <xliff:g id="subject">%s</xliff:g></string>
     <!-- Detailed MMS failure strings, may need to be adjusted per carrier for TA -->
     <string name="mms_failure_outgoing_service">Mensagem não enviada: serviço não ativado na rede</string>
     <string name="mms_failure_outgoing_address">Mensagem não enviada: endereço de destino inválido</string>
     <string name="mms_failure_outgoing_corrupt">Mensagem não enviada: mensagem inválida</string>
     <string name="mms_failure_outgoing_content">Mensagem não enviada: conteúdo não suportado</string>
     <string name="mms_failure_outgoing_unsupported">Mensagem não enviada: a mensagem não é compatível</string>
-    <string name="mms_failure_outgoing_too_large">Mensagem não enviada: demasiado grande</string>
+    <string name="mms_failure_outgoing_too_large">Mensagem não enviada: muito grande</string>
     <!-- The notification toast text and action button label shown at bottom of screen, for when a new message comes in while the user
          is in that conversation, but the message list is not scrolled to the bottom -->
     <string name="in_conversation_notify_new_message_text">Nova mensagem</string>
@@ -695,7 +694,7 @@
     <!-- Content description for the message images in a conversation or for the image preview in the conversation list if the lastest message in that conversation contains an image-->
     <string name="message_image_content_description">Imagem</string>
     <!-- Text for a toast message notifying the user that we can't find an appropriate application to handle their request -->
-    <string name="activity_not_found_message">Não foi possível encontrar uma aplicação adequada</string>
+    <string name="activity_not_found_message">Não foi possível localizar um aplicativo apropriado</string>
     <!-- Accessibility : Content description for deleting a recipient chip. -->
     <string name="chips_delete_content_description">Remover o destinatário</string>
     <!-- Label for new message button in share intent dialog -->
@@ -713,7 +712,7 @@
     <!-- Edit access point labels: -->
     <string name="apn_mmsc">MMSC</string>
     <!-- Edit access point labels: The proxy to use for MMS (multimedia messages)-->
-    <string name="apn_mms_proxy">Proxy de MMS</string>
+    <string name="apn_mms_proxy">Proxy MMS</string>
     <!-- Edit access point labels: The port on the proxy used for MMS-->
     <string name="apn_mms_port">Porta MMS</string>
     <!-- Edit access point labels: -->
@@ -723,29 +722,29 @@
     <!-- Edit access point labels: The type of APN -->
     <string name="apn_type">Tipo de APN</string>
     <!-- Edit access point screen menu option to delete this APN -->
-    <string name="menu_delete_apn">Eliminar APN</string>
+    <string name="menu_delete_apn">Excluir APN</string>
     <!-- APNs screen menu option to create a brand spanking new APN -->
     <string name="menu_new_apn">Novo APN</string>
     <!-- Edit access point screen menu option to save the user's changes for this APN to the persistent storage -->
-    <string name="menu_save_apn">Guardar</string>
+    <string name="menu_save_apn">Salvar</string>
     <!-- Edit access point screen menu option to discard the user's changes for this APN -->
-    <string name="menu_discard_apn_change">Rejeitar</string>
+    <string name="menu_discard_apn_change">Descartar</string>
     <!-- APN error dialog messages: -->
     <string name="error_apn_name_empty">O campo Nome não pode estar vazio.</string>
     <!-- APN error dialog messages: -->
-    <string name="error_apn_empty">O APN não pode estar vazio.</string>
+    <string name="error_apn_empty">O campo APN não pode estar vazio.</string>
     <!-- APN error dialog messages: -->
-    <string name="error_mcc_not3">O campo MCC tem de ter 3 dígitos.</string>
+    <string name="error_mcc_not3">O campo MCC deve ter 3 dígitos.</string>
     <!-- APN error dialog messages: -->
-    <string name="error_mnc_not23">O campo MNC tem de ter 2 ou 3 dígitos.</string>
+    <string name="error_mnc_not23">O campo MNC deve ter 2 ou 3 dígitos.</string>
     <!-- The message of dialog indicated restoring default APN settings in progress -->
-    <string name="restore_default_apn">A restaurar as predefinições do APN</string>
+    <string name="restore_default_apn">Resetando configurações padrão de APN.</string>
     <!-- APNs screen menu option to reset default APN settings -->
-    <string name="menu_restore_default_apn">Repor as predefinições</string>
+    <string name="menu_restore_default_apn">Redefinir para o padrão</string>
     <!-- APNs screen toast message to inform reset default APN settings is completed -->
-    <string name="restore_default_apn_completed">Reposição das predefinições do APN concluída.</string>
+    <string name="restore_default_apn_completed">A restaurações dos padrões de APN está concluída.</string>
     <!-- Name to assign to a Network Access Point that was saved without a name -->
-    <string name="untitled_apn">Sem nome</string>
+    <string name="untitled_apn">Sem título</string>
     <!-- Title for Access Point Names settings -->
     <string name="sms_apns_title">Nomes dos Pontos de Acesso</string>
     <!-- Title for Access Point Names settings activity -->
@@ -753,25 +752,25 @@
     <!-- APNs screen menu option to create a brand spanking new APN -->
     <string name="menu_new">Novo APN</string>
     <!-- Error message for users that aren't allowed to modify Access Point Names settings [CHAR LIMIT=none] -->
-    <string name="apn_settings_not_available">As definições de Nome do Ponto de Acesso não estão disponíveis para este utilizador</string>
+    <string name="apn_settings_not_available">As configurações dos Nomes dos Pontos de Acesso não estão disponíveis para esse usuário</string>
     <!-- Alert dialog title to copy information displayed in dialog to system clipboard. -->
-    <string name="copy_to_clipboard_dialog_title">Pretende copiar para a área de transferência?</string>
+    <string name="copy_to_clipboard_dialog_title">Copiar para a área de transferência?</string>
     <!-- Alert dialog accept to copy information displayed in dialog to system clipboard. -->
     <string name="copy_to_clipboard">Copiar</string>
     <!-- SIM name incoming message bubbles indicating which SIM the message was delivered to -->
-    <string name="incoming_sim_name_text">em <xliff:g id="SIM_NAME">%s</xliff:g></string>
+    <string name="incoming_sim_name_text">para <xliff:g id="sim_name">%s </xliff:g></string>
     <!-- The title for general settings section in the settings activity  -->
     <string name="general_settings">Geral</string>
     <!-- The title for advanced settings section in the settings activity  -->
-    <string name="advanced_settings">Avançadas</string>
+    <string name="advanced_settings">Avançado</string>
     <!-- The title for general settings activity  -->
-    <string name="general_settings_activity_title">Definições gerais</string>
+    <string name="general_settings_activity_title">Configurações gerais</string>
     <!-- The title for advanced settings activity  -->
-    <string name="advanced_settings_activity_title">Definições avançadas</string>
+    <string name="advanced_settings_activity_title">Configurações avançadas</string>
     <!-- The title for sim_specific settings  -->
-    <string name="sim_specific_settings">SIM \"<xliff:g id="SIM_NAME">%s</xliff:g>\"</string>
+    <string name="sim_specific_settings">SIM \"<xliff:g id="sim_name">%s</xliff:g>\"</string>
     <!-- The group MMS choices in settings -->
-    <string name="disable_group_mms">Enviar mensagens SMS individuais para todos os destinatários. Apenas o utilizador recebe as respostas</string>
+    <string name="disable_group_mms">Enviar mensagens SMS individuais para todos os destinatários. Apenas você receberá as respostas</string>
     <string name="enable_group_mms">Enviar uma única MMS para todos os destinatários</string>
     <!-- SIM number shown in the settings when the number is not known -->
     <string name="sim_settings_unknown_number">Número desconhecido</string>
@@ -788,7 +787,7 @@
     <!-- Custom TalkBack description for send button long click event when there is SIM selector -->
     <string name="send_button_long_click_description_with_sim_selector">Selecionar SIM ou editar assunto</string>
     <!-- Content description for the audio record view -->
-    <string name="audio_record_view_content_description">Tocar sem soltar para gravar áudio</string>
+    <string name="audio_record_view_content_description">Tocar &amp; segure para gravar áudio</string>
     <!-- Content description for new conversation button in desktop widget -->
     <string name="widget_new_conversation_content_description">Iniciar nova conversa</string>
     <!-- Content description for widget title -->
@@ -802,37 +801,37 @@
     <!-- Content description for conversation list button in desktop widget -->
     <string name="widget_conversation_list_content_description">Lista de conversas</string>
     <!-- Shown when loading conversations in the widget -->
-    <string name="loading_conversations">A carregar conversas</string>
+    <string name="loading_conversations">Carregando conversas</string>
     <!-- Shown when loading messages in the widget -->
-    <string name="loading_messages">A carregar mensagens</string>
+    <string name="loading_messages">Carregando mensagens</string>
     <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open bugle home activity. [CHAR LIMIT=35] -->
     <string name="view_more_conversations">Ver mais conversas</string>
     <!-- Displayed at the beginning of the message list in the widget. Tapping on this will open bugle home activity. [CHAR LIMIT=35] -->
     <string name="view_more_messages">Ver mais mensagens</string>
     <!-- Toast message telling the user a conversation has been deleted -->
-    <string name="conversation_deleted">Conversa eliminada</string>
+    <string name="conversation_deleted">Conversa excluída</string>
     <!-- Displayed when user adds a new conversation widget. Tapping on the widget in this
           mode will bring user to the conversation selection screen -->
-    <string name="tap_to_configure">Conversa eliminada. Toque para mostrar uma conversa das Mensagens diferente</string>
+    <string name="tap_to_configure">Conversa excluída. Toque para mostrar uma conversa diferente</string>
     <!-- Toast message telling the user that someone was blocked -->
     <string name="update_destination_blocked">Bloqueado</string>
     <!-- Toast message telling the user that someone was unblocked -->
     <string name="update_destination_unblocked">Desbloqueado</string>
-    <string name="db_full">O espaço de armazenamento é reduzido. Alguns dados podem ser perdidos.</string>
+    <string name="db_full">O espaço de armazenamento está baixo. Alguns dados podem ser perdidos.</string>
     <!-- Title for attachment chooser activity -->
     <string name="attachment_chooser_activity_title">Selecionar anexos</string>
     <!-- Action menu title for confirming attachment selection in the attachment chooser -->
     <string name="action_confirm_selection">Confirmar seleção</string>
     <!-- Shows the number of selected attachments in the attachment chooser activity -->
-    <string name="attachment_chooser_selection"><xliff:g id="COUNT">%d</xliff:g> selecionado(s)</string>
+    <string name="attachment_chooser_selection"><xliff:g id="count">%d </xliff:g> selecionado</string>
     <!-- The dialog message content for when the message is over the attachment limit when composing the message -->
-    <string name="attachment_limit_reached_dialog_message_when_composing">Remova um ou mais anexos e tente novamente.</string>
+    <string name="attachment_limit_reached_dialog_message_when_composing">Por favor, remova um ou mais anexos e tente novamente.</string>
     <!-- The dialog message content for when the message is over the attachment limit when sending the message -->
-    <string name="attachment_limit_reached_dialog_message_when_sending">Pode tentar enviar a sua mensagem, mas esta pode não ser entregue se não remover um ou mais anexos.</string>
+    <string name="attachment_limit_reached_dialog_message_when_sending">Você pode tentar enviar sua mensagem, mas ela pode não ser entregue a menos que você remova um ou mais anexos.</string>
     <!-- The dialog message content for when the message is over the attachment limit when sending the message -->
-    <string name="video_attachment_limit_exceeded_when_sending">Apenas pode enviar um vídeo por mensagem. Remova os vídeos adicionais e tente novamente.</string>
+    <string name="video_attachment_limit_exceeded_when_sending">Você pode apenas enviar um vídeo por mensagem. Por gentileza remova os vídeos adicionais e tente novamente.</string>
     <!-- The dialog message content for when the message load failed -->
-    <string name="attachment_load_failed_dialog_message">Falha da aplicação Mensagens ao carregar o anexo.</string>
+    <string name="attachment_load_failed_dialog_message">Falha ao carregar o anexo da mensagem.</string>
     <!-- The option to send the message anyway when the user is presented with the warning that the attachment size might be over limit -->
     <string name="attachment_limit_reached_send_anyway">Enviar mesmo assim</string>
     <!-- Toast message telling the user a conversation with a recipient could not be found or created -->
@@ -840,8 +839,8 @@
     <!-- When converting html to text link urls are inlined.  This specifies how the link should be
     displayed.  For example, a link "click here" which navigates to "www.google.com" would have
     text="click here" and url="www.google.com", using the below format to create "click here (www.google.com)" -->
-    <string name="link_display_format"><xliff:g id="TEXT">%1$s</xliff:g> (<xliff:g id="URL">%2$s</xliff:g>)</string>
+    <string name="link_display_format"><xliff:g id="text">%1$s</xliff:g> (<xliff:g id="url">%2$s</xliff:g>)</string>
     <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
-    <string name="selected_sim_content_message"><xliff:g id="SELECTED_SIM">%s</xliff:g> selecionado</string>
-    <string name="work_directory_display_name">Work Profile contacts</string>
+    <string name="selected_sim_content_message"><xliff:g id="selected_sim">%s </xliff:g> selecionado</string>
+    <string name="work_directory_display_name">Contactos do perfil de trabalho</string>
 </resources>

@@ -23,7 +23,6 @@
     <!-- The tab header for all contacts list -->
     <!-- The text on the list item in the contact picker that allows a user to send an SMS directly
          to a number that he/she typed. eg. "Send to 650-555-1234" -->
-    <string name="mediapicker_gallery_title">เลือกรูปภาพ</string>
     <!-- example: "image January 17 2015 1 59 pm" -->
     <!-- Abbreviated message to express that something occurred some number of minutes in the past (e.g., 5 minutes ago). -->
     <!-- Abbreviated message to express that something occurred some number of hours in the past (e.g., 5 hours ago). -->
@@ -129,21 +128,8 @@
     <!-- Toast shown when the user successfully sets Bugle as the default SMS app. -->
     <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
     <!-- Accessibility announcement for an incoming message -->
-    <string name="incoming_message_announcement">ข้อความจาก <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g></string>
     <!-- Accessibility description for conversation list for 1:1 conversations -->
-    <string name="one_on_one_incoming_failed_message_prefix">ไม่สามารถรับข้อความจาก <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
-    <string name="one_on_one_incoming_successful_message_prefix">ข้อความจาก <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
-    <string name="one_on_one_outgoing_draft_message_prefix">ข้อความที่ยังไม่ได้ส่งถึง <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
-    <string name="one_on_one_outgoing_sending_message_prefix">กำลังส่งข้อความถึง <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
-    <string name="one_on_one_outgoing_failed_message_prefix">ไม่สามารถส่งข้อความถึง <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
-    <string name="one_on_one_outgoing_successful_message_prefix">ส่งข้อความถึง <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
     <!-- Accessibility description for conversation list for group conversations -->
-    <string name="group_incoming_failed_message_prefix">ไม่สามารถรับข้อความจาก <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g> <xliff:g id="GROUPINFO">%s</xliff:g></string>
-    <string name="group_incoming_successful_message_prefix">ข้อความจาก <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g> <xliff:g id="GROUPINFO">%s</xliff:g></string>
-    <string name="group_outgoing_draft_message_prefix">ข้อความที่ยังไม่ได้ส่งถึง <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
-    <string name="group_outgoing_sending_message_prefix">กำลังส่งข้อความถึง <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
-    <string name="group_outgoing_failed_message_prefix">ไม่สามารถส่งข้อความถึง <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
-    <string name="group_outgoing_successful_message_prefix">ส่งข้อความถึง <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g> เวลา: <xliff:g id="TIME">%s</xliff:g></string>
     <!-- Accessibility description for conversation list for failed messages -->
     <!-- Accessibility name for a group conversation -->
     <!-- Accessibility : text read on the small X icon on the subject editor -->
@@ -218,7 +204,6 @@
     <!-- The text shown as a label before the message subject input box -->
     <!-- The text shown as a label before the message subject input box -->
     <!-- When there's a subject in an mms, the subject + message are shown in a notification -->
-    <string name="notification_subject"><xliff:g id="SUBJECT_LABEL">%s</xliff:g><xliff:g id="MESSAGETEXT">%s</xliff:g></string>
     <!-- Text shown on contact VCard when it's being loaded -->
     <!-- Text shown on contact VCard when it failed to load -->
     <!-- Text shown on contact VCard promping the user to tap to view the contact -->
