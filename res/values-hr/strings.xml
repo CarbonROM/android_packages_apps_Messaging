@@ -15,11 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- The name of the application as it appears under the main Launcher icon and in various activity titles -->
     <string name="app_name">Slanje poruka</string>
-    <!-- The name of the application as it appears in external share intent dialogs -->
     <string name="share_intent_label">Slanje poruka</string>
-    <!-- The title when selecting a conversation to share to -->
     <string name="share_intent_activity_label">Odabir razgovora</string>
     <string name="action_settings">Postavke</string>
     <string name="sendButtonContentDescription">Pošalji poruku</string>
@@ -32,16 +29,11 @@
     <string name="exit">Izlaz</string>
     <string name="settings_with_arrow">Postavke &gt;</string>
     <string name="settings">Postavke</string>
-    <!-- Inform user of the names of permissions that are required to use the app -->
     <string name="required_permissions_promo">Slanje poruka treba dopuštenje za SMS, Telefon i Kontakte.</string>
     <string name="enable_permission_procedure">Dopuštenja možete promijeniti u Postavkama &gt; Aplikacije &gt; Slanje poruka &gt; Dopuštenja.</string>
     <string name="enable_permission_procedure_description">Dopuštenja možete promijeniti tako da u Postavkama otvorite Aplikacije, Slanje poruka, Dopuštenja.</string>
-    <!-- The tab header for the frequently used contacts list -->
     <string name="contact_picker_frequents_tab_title">Često kontaktirani</string>
-    <!-- The tab header for all contacts list -->
     <string name="contact_picker_all_contacts_tab_title">Svi kontakti</string>
-    <!-- The text on the list item in the contact picker that allows a user to send an SMS directly
-         to a number that he/she typed. eg. "Send to 650-555-1234" -->
     <string name="contact_list_send_to_text">Pošalji na <xliff:g id="DESTINATION">%s</xliff:g></string>
     <string name="mediapicker_cameraChooserDescription">Snimite fotografije ili videozapis</string>
     <string name="mediapicker_galleryChooserDescription">Odaberite slike s ovog uređaja</string>
@@ -50,276 +42,166 @@
     <string name="mediapicker_gallery_item_selected_content_description">Medij je odabran.</string>
     <string name="mediapicker_gallery_item_unselected_content_description">Odabir medija poništen je.</string>
     <string name="mediapicker_gallery_title_selection">Odabrano: <xliff:g id="COUNT">%d</xliff:g></string>
-    <!-- example: "image January 17 2015 1 59 pm" -->
     <string name="mediapicker_gallery_image_item_description">slika <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g></string>
     <string name="mediapicker_gallery_image_item_description_no_date">slika</string>
     <string name="mediapicker_audio_title">Snimanje zvuka</string>
     <string name="action_share">Dijeljenje</string>
     <string name="posted_just_now">"Upravo sada"</string>
     <string name="posted_now">"Sad"</string>
-    <!-- Abbreviated message to express that something occurred some number of minutes in the past (e.g., 5 minutes ago). -->
     <plurals name="num_minutes_ago">
         <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
         <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
         <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
     </plurals>
-    <!-- Abbreviated message to express that something occurred some number of hours in the past (e.g., 5 hours ago). -->
     <plurals name="num_hours_ago">
         <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> sat</item>
         <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> sata</item>
         <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> sati</item>
     </plurals>
-    <!-- Abbreviated message to express that something occurred some number of days in the past (e.g., 5 days ago). -->
     <plurals name="num_days_ago">
         <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> dan</item>
         <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> dana</item>
         <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> dana</item>
     </plurals>
-    <!--
-        Plurals used for the duration in free sms storage action and confirm strings above
-        Example: "Delete messages older than a week"
-    -->
     <plurals name="week_count">
-        <!-- Singular case -->
         <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> tjedan</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> tjedna</item>
-        <!-- Plural case -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> tjedana</item>
     </plurals>
     <plurals name="month_count">
-        <!-- Singular case -->
         <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> mjesec</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> mjeseca</item>
-        <!-- Plural case -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> mjeseci</item>
     </plurals>
     <plurals name="year_count">
-        <!-- Singular case -->
         <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> godina</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> godine</item>
-        <!-- Plural case -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> godina</item>
     </plurals>
-    <!-- Title of the class-0 message activity. -->
     <string name="class_0_message_activity">Poruka klase 0</string>
     <string name="save">Spremi</string>
-    <!-- Text for SMS storage low text, when auto delete is enabled -->
     <string name="sms_storage_low_auto_delete_enabled_dialog_text">Na uređaju ponestaje prostora. Slanje poruka automatski će izbrisati starije poruke da bi se oslobodio prostor.</string>
-    <!-- Title for SMS storage low notification and dialog. Must match the framework's notification title, i.e. //frameworks/base/core/res/res/values/strings.xml#low_internal_storage_view_title -->
     <string name="sms_storage_low_title">Ponestaje prostora za pohranu</string>
-    <!-- Text for SMS storage low notification and dialog -->
     <string name="sms_storage_low_text">Slanje poruka možda neće slati ili primati poruke dok se na uređaju ne oslobodi više prostora.</string>
-    <!-- Ticker for SMS storage low notification -->
     <string name="sms_storage_low_notification_ticker">Nema dovoljno prostora za pohranu SMS-a. Možda ćete morati izbrisati poruke.</string>
-    <!-- Title for asking the user to enter their phone number -->
     <string name="enter_phone_number_title">Potvrđivanje telefonskog broja</string>
-    <!-- Text for asking the user to enter their phone number -->
     <string name="enter_phone_number_text">Taj jednokratni korak omogućit će Slanju poruka pravilnu isporuku vaših grupnih poruka.</string>
-    <!-- EditText hint for asking the user to enter their phone number -->
     <string name="enter_phone_number_hint">Telefonski broj</string>
-    <!-- Free SMS storage actions -->
     <string name="delete_all_media">Izbriši sve poruke s medijskim sadržajima</string>
     <string name="delete_oldest_messages">Izbriši poruke starije od <xliff:g id="DURATION">%s</xliff:g></string>
     <string name="auto_delete_oldest_messages">Automatski izbriši poruke starije od <xliff:g id="DURATION">%s</xliff:g></string>
     <string name="ignore">Zanemari</string>
-    <!-- Free SMS storage action confirm dialog message -->
     <string name="delete_all_media_confirmation">Izbrisati sve poruke s medijskim sadržajima?</string>
     <string name="delete_oldest_messages_confirmation">Izbrisati poruke starije od <xliff:g id="DURATION">%s</xliff:g>?</string>
     <string name="auto_delete_oldest_messages_confirmation">Izbrisati poruke starije od <xliff:g id="DURATION">%s</xliff:g> i uključiti automatsko brisanje?</string>
-    <!-- ####### Strings to support the mms/sms service ####### -->
-    <!-- Prefix for accessibility to indicate who the sender of a plain text message is. -->
     <string name="incoming_text_sender_content_description"><xliff:g id="SENDER">%s</xliff:g> kaže</string>
     <string name="outgoing_text_sender_content_description">Rekli ste</string>
-    <!-- Prefix for accessibility to indicate who the sender of text with hyperlinks, an attachment, or yet-to-be-downloaded message is. -->
     <string name="incoming_sender_content_description">Poruka pošiljatelja <xliff:g id="SENDER">%s</xliff:g></string>
     <string name="outgoing_sender_content_description">Poslali ste poruku</string>
-    <!-- While sending a message display this message. -->
     <string name="message_status_sending">Slanje…</string>
-    <!-- When sending a message failed display this message. -->
     <string name="message_status_send_failed">Nije poslano. Dodirnite za ponovni pokušaj.</string>
-    <!-- When retrying sending for a message. -->
     <string name="message_status_send_retrying">Nije poslano. Pokušavamo ponovo…</string>
-    <!-- When showing resend action display this message. -->
     <string name="message_status_resend">Ponovno slanje ili brisanje</string>
-    <!-- When sending a message to an emergency number failed display this message in the conversation. -->
     <string name="message_status_send_failed_emergency_number">Nazovite hitnu službu. Vaša tekstna poruka nije isporučena.</string>
-    <!-- When showing resend action, display this message. -->
     <string name="message_status_failed">Nije poslano</string>
-    <!-- Title line for an MMS requiring manual download. -->
     <string name="message_title_manual_download">Nova MMS poruka za preuzimanje</string>
-    <!-- Title line for an MMS auto-downloading. -->
     <string name="message_title_downloading">Nova MMS poruka</string>
-    <!-- Title line for MMS which failed to download. -->
     <string name="message_title_download_failed">Preuzimanje nije moguće</string>
-    <!-- Timestamp line for MMS which failed to download. -->
     <string name="message_status_download_failed">Dodirnite za ponovni pokušaj</string>
-    <!-- Timestamp line for MMS which failed to download. -->
     <string name="message_status_download">Dodirnite za preuzimanje</string>
-    <!-- Timestamp line for MMS which is selected. -->
     <string name="message_status_download_action">Preuzimanje ili brisanje</string>
-    <!-- Timestamp line to display while downloading a message. -->
     <string name="message_status_downloading">Preuzimanje...</string>
-    <!-- Timestamp line for MMS for expired or invalid message. -->
     <string name="message_status_download_error">Poruka je istekla ili nije dostupna</string>
-    <!-- Display this info line with an MMS notification -->
     <string name="mms_info">veličina: <xliff:g id="MESSAGESIZE">%1$s</xliff:g>, istek: <xliff:g id="MESSAGEEXPIRE">%2$s</xliff:g></string>
-    <!-- While sending a message, if it has invalid recipient, display this message. -->
     <string name="invalid_destination">Nije poslano. Primatelj nije važeći.</string>
-    <!-- While sending a message, this error is expected to be generated when user does not have
-         MMS enabled on his account. [CHAR LIMIT=NONE] -->
     <string name="service_not_activated">Usluga nije aktivirana na mreži</string>
-    <!-- If a message can't be sent because of a MMSC network problem, show this toast. [CHAR LIMIT=NONE] -->
     <string name="service_network_problem">Slanje nije uspjelo zbog problema s mrežom</string>
-    <!-- If a message has expired and is no longer available on MMSC, show this toast. [CHAR LIMIT=NONE] -->
     <string name="service_message_not_found">Poruka je istekla ili nije dostupna</string>
-    <!-- Download Manager -->
-    <!-- When an error occurs downloading a new message and a subject isn't available, substitute
-         this default subject. -->
     <string name="no_subject">(Bez predmeta)</string>
-    <!-- When an error occurs downloading a new message and the sender is unknown, substitute
-         this default text. -->
     <string name="unknown_sender">Nepoznati pošiljatelj</string>
     <string name="delivered_status_content_description">Isporučeno</string>
-    <!-- When an error occurs downloading a new message, display this message.
-         An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
     <string name="dl_failure_notification">Preuzimanje poruke <xliff:g id="SUBJECT">%1$s</xliff:g> od pošiljatelja <xliff:g id="FROM">%2$s</xliff:g> nije uspjelo.</string>
-    <!-- When a database error occurs due to low memory this toast is shown. -->
     <string name="low_memory">Radnja baze podataka nije dovršena zbog nedostatka memorije</string>
-    <!-- notification line 1 for "there are some failed messages" -->
     <string name="notification_send_failures_line1_singular">Poruka nije poslana</string>
-    <!-- notification line 1 for "there are some failed messages" -->
     <string name="notification_send_failures_line1_plural">Neke poruke nisu poslane u Slanju poruka</string>
     <plurals name="notification_send_failures">
         <item quantity="one"><xliff:g id="MESSAGES_1">%d</xliff:g> poruka u <xliff:g id="CONVERSATIONS">%d</xliff:g> razgovoru</item>
         <item quantity="few"><xliff:g id="MESSAGES_1">%d</xliff:g> poruke u <xliff:g id="CONVERSATIONS">%d</xliff:g> razgovora</item>
         <item quantity="other"><xliff:g id="MESSAGES_1">%d</xliff:g> poruka u <xliff:g id="CONVERSATIONS">%d</xliff:g> razgovora</item>
     </plurals>
-    <!-- notification line 1 for download failed -->
     <string name="notification_download_failures_line1_singular">Poruka nije preuzeta</string>
-    <!-- notification line 1 for multiple downloads failed -->
     <string name="notification_download_failures_line1_plural">Neke poruke nisu preuzete u Slanje poruka</string>
     <plurals name="notification_download_failures">
         <item quantity="one"><xliff:g id="MESSAGES_1">%d</xliff:g> poruka u <xliff:g id="CONVERSATIONS">%d</xliff:g> razgovoru</item>
         <item quantity="few"><xliff:g id="MESSAGES_1">%d</xliff:g> poruke u <xliff:g id="CONVERSATIONS">%d</xliff:g> razgovora</item>
         <item quantity="other"><xliff:g id="MESSAGES_1">%d</xliff:g> poruka u <xliff:g id="CONVERSATIONS">%d</xliff:g> razgovora</item>
     </plurals>
-    <!-- Notification title when emergency SMS (e.g. to 911) fails to send -->
     <string name="notification_emergency_send_failure_line1">Poruka na broj <xliff:g id="NUMBER">%1$s</xliff:g> nije poslana</string>
-    <!-- Notification content when emergency SMS fails to send -->
     <string name="notification_emergency_send_failure_line2">Nazovite hitnu službu. Vaša tekstna poruka na broj <xliff:g id="NUMBER">%1$s</xliff:g> nije isporučena.</string>
-    <!-- notification line 1 for new message notification on the lock screen -->
     <plurals name="notification_new_messages">
         <item quantity="one"><xliff:g id="MESSAGES">%d</xliff:g> nova poruka</item>
         <item quantity="few"><xliff:g id="MESSAGES">%d</xliff:g> nove poruke</item>
         <item quantity="other"><xliff:g id="MESSAGES">%d</xliff:g> novih poruka</item>
     </plurals>
-    <!-- Text for starting a new conversation button in the compose UI -->
     <string name="start_conversation">Započni</string>
     <string name="camera_error_opening">Fotoaparat nije dostupan</string>
     <string name="camera_error_unknown">Fotoaparat nije dostupan</string>
     <string name="camera_error_video_init_fail">Snimanje videozapisa nije dostupno</string>
-    <!-- Error message when we are unable to write a picture or video file because of an error writing to storage (usually because insufficient space) -->
     <string name="camera_error_storage_fail">Medij nije spremljen</string>
     <string name="camera_error_failure_taking_picture">Nije moguće snimiti sliku</string>
-    <!-- Content description text for Back button on the action bar -->
     <string name="back">Natrag</string>
-    <!-- Action menu title for showing archived conversations -->
     <string name="action_menu_show_archived">Arhivirano</string>
-    <!-- Action menu title for deleting selected conversations in conversation list -->
     <string name="action_delete">Izbriši</string>
-    <!-- Action menu title for archiving selected conversations in conversation list -->
     <string name="action_archive">Arhiviraj</string>
-    <!-- Action menu title for unarchiving selected conversations in conversation list -->
     <string name="action_unarchive">Poništi arhiviranje</string>
-    <!-- Action menu title for adding the contacts for the selected conversations in conversation list -->
     <string name="action_add_contact">Dodaj kontakt</string>
-    <!-- Action menu title for downloading failed message selected in conversation -->
     <string name="action_download">Preuzmi</string>
-    <!-- Action menu title for sending failed message selected in conversation -->
     <string name="action_send">Pošalji</string>
-    <!-- Action menu title for deleting failed message selected in conversation -->
     <string name="action_delete_message">Izbriši</string>
     <string name="delete_message_confirmation_dialog_title">Želite li izbrisati tu poruku?</string>
     <string name="delete_message_confirmation_dialog_text">Tu radnju nije moguće poništiti.</string>
     <string name="delete_message_confirmation_button">Izbriši</string>
-    <!-- Alert dialog title to accept or decline deleting conversation(s). -->
     <plurals name="delete_conversations_confirmation_dialog_title">
         <item quantity="one">Izbrisati razgovore?</item>
         <item quantity="few">Izbrisati razgovore?</item>
         <item quantity="other">Izbrisati razgovore?</item>
     </plurals>
-    <!-- Alert dialog accept deleting this conversation button. -->
     <string name="delete_conversation_confirmation_button">Izbriši</string>
-    <!-- Alert dialog decline deleting this conversation button. -->
     <string name="delete_conversation_decline_button">Odustani</string>
-    <!-- Hint text for the recipient chips text box when it's empty -->
     <string name="recipient_hint">Odredište</string>
-    <!-- Action menu title for multiple selection in gallery image picker -->
     <string name="action_multiselect">Odaberi više slika</string>
-    <!-- Action menu title for confirming multiple selection in gallery image picker -->
     <string name="action_confirm_multiselect">Potvrdite odabir</string>
-    <!-- Text for showing there are more items in the attachments than is shown (e.g. "+2") -->
     <string name="attachment_more_items">+<xliff:g id="COUNT">%d</xliff:g></string>
-    <!-- Failed to start recording audio -->
     <string name="audio_recording_start_failed">Audioporuka nije snimljena. Pokušajte ponovo.</string>
-    <!-- Failed to replay recorded audio -->
     <string name="audio_recording_replay_failed">Audioporuku nije moguće reproducirati. Pokušajte ponovo.</string>
-    <!-- Error occurred while recording audio -->
     <string name="audio_recording_error">Audioporuka nije spremljena. Pokušajte ponovo.</string>
-    <!-- Hint text on the audio recorder that instructs user how to start recording -->
     <string name="audio_picker_hint_text">Dodirnite i zadržite</string>
-    <!-- An enumeration comma for separating multiple names in notifications. [CHAR LIMIT=2] -->
     <string name="enumeration_comma">, </string>
-    <!-- Separator between parts of a notification in each line of an inboxStyle notification. [CHAR LIMIT=2] -->
-    <string name="notification_separator"></string>
-    <!-- Separator between title and content in notification ticker -->
+    <string name="notification_separator"/>
     <string name="notification_ticker_separator">: </string>
-    <!-- Separator between title and content in notifications -->
-    <string name="notification_space_separator"></string>
-    <!-- Shown in notifications when there's a picture. [CHAR LIMIT=25] -->
+    <string name="notification_space_separator"/>
     <string name="notification_picture">Slika</string>
-    <!-- Shown in notifications when there's an audio clip. [CHAR LIMIT=25] -->
     <string name="notification_audio">Audioisječak</string>
-    <!-- Shown in notifications when there's a video. [CHAR LIMIT=25] -->
     <string name="notification_video">Videozapis</string>
-    <!-- Shown in notifications when there's a vcard. [CHAR LIMIT=25] -->
     <string name="notification_vcard">Kartica kontakta</string>
-    <!-- Notification action label for download MMS when set to manual downloads. [CHAR LIMIT=15] -->
     <string name="notification_download_mms">Preuzmi</string>
-    <!-- Notification action label for SMS reply (visible on wearable device only). [CHAR LIMIT=15] -->
     <string name="notification_reply_via_sms">Odgovorite putem SMS-a</string>
-    <!-- Notification action label for MMS reply (visible on wearable device only). [CHAR LIMIT=15] -->
     <string name="notification_reply_via_mms">Odgovor MMS-om</string>
-    <!-- Notification voice reply prompt (visible on wearable device only). [CHAR LIMIT=15] -->
     <string name="notification_reply_prompt">Odgovorite</string>
-    <!-- The bottom line on a wearable notification that shows how many participants in the conversation -->
     <plurals name="wearable_participant_count">
         <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> sudionik</item>
         <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> sudionika</item>
         <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> sudionika</item>
     </plurals>
-    <!-- Shown in the Android Wear conversation log as the sender for outgoing messages,
-         when we don't know the user's real name (e.g. no "Me" contact on the phone). -->
     <string name="unknown_self_participant">Ja</string>
-    <!-- The text of the toast/snack message shown when a contact is blocked -->
     <string name="blocked_toast_message">Kontakt je blokiran i arhiviran</string>
-    <!-- The text of the toast/snack message shown when a contact is unblocked -->
     <string name="unblocked_toast_message">Kontakt deblokiran i dearhiviran</string>
-    <!-- The text of the toast/snack message shown when the selected conversation(s) are archived.
-         Displays the number of converstions archived -->
     <string name="archived_toast_message">Arhivirano: <xliff:g id="COUNT">%d</xliff:g></string>
-    <!-- The text of the toast/snack message shown when the selected conversation(s) are unarchived.
-         Displays the number of conversations unarchived -->
     <string name="unarchived_toast_message">Poništena arhiviranja: <xliff:g id="COUNT">%d</xliff:g></string>
-    <!-- The text of the toast/snack message shown when a notifications turned off for selected conversations -->
     <string name="notification_off_toast_message">Obavijesti isključene</string>
-    <!-- The text of the toast/snack message shown when a notifications turned on for selected conversations -->
     <string name="notification_on_toast_message">Obavijesti uključene</string>
-    <!-- Toast shown when the user tries to send a message, and then sets Bugle as the default SMS app. -->
     <string name="toast_after_setting_default_sms_app_for_message_send">Sve je postavljeno. Ponovo dodirnite Pošalji.</string>
-    <!-- Toast shown when the user successfully sets Bugle as the default SMS app. -->
     <string name="toast_after_setting_default_sms_app">Slanje poruka uspješno je postavljeno kao zadana aplikacija za SMS.</string>
-    <!-- Accessibility : Content descriptinon for ImageButtons and ImageViews -->
     <plurals name="attachment_preview_close_content_description">
         <item quantity="one">Odbacivanje privitaka</item>
         <item quantity="few">Odbacivanje privitaka</item>
@@ -328,27 +210,21 @@
     <string name="audio_attachment_content_description">Audioprivitak</string>
     <string name="audio_play_content_description">Reproduciraj audioprivitak</string>
     <string name="audio_pause_content_description">Pauziraj</string>
-    <!-- Accessibility announcement for an incoming message -->
     <string name="incoming_message_announcement">Poruka pošiljatelja <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>.</string>
-    <!-- Accessibility description for conversation list for 1:1 conversations -->
     <string name="one_on_one_incoming_failed_message_prefix">Poruka pošiljatelja <xliff:g id="SENDER">%s</xliff:g> nije uspjela: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
     <string name="one_on_one_incoming_successful_message_prefix">Poruka pošiljatelja <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
     <string name="one_on_one_outgoing_draft_message_prefix">Poruka za kontakt <xliff:g id="CONTACT">%s</xliff:g> nije poslana: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
     <string name="one_on_one_outgoing_sending_message_prefix">Slanje poruke kontaktu <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
     <string name="one_on_one_outgoing_failed_message_prefix">Poruka za kontakt <xliff:g id="CONTACT">%s</xliff:g> nije uspjela: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
     <string name="one_on_one_outgoing_successful_message_prefix">Poruka kontaktu <xliff:g id="CONTACT">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
-    <!-- Accessibility description for conversation list for group conversations -->
     <string name="group_incoming_failed_message_prefix">Neuspjela poruka pošiljatelja <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g>. <xliff:g id="GROUPINFO">%s</xliff:g></string>
     <string name="group_incoming_successful_message_prefix">Poruka pošiljatelja <xliff:g id="SENDER">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g>. <xliff:g id="GROUPINFO">%s</xliff:g></string>
     <string name="group_outgoing_draft_message_prefix">Poruka za grupu <xliff:g id="GROUP">%s</xliff:g> nije poslana: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
     <string name="group_outgoing_sending_message_prefix">Slanje poruke grupi <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
     <string name="group_outgoing_failed_message_prefix">Poruka za grupu <xliff:g id="GROUP">%s</xliff:g> nije uspjela: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
     <string name="group_outgoing_successful_message_prefix">Poruka grupi <xliff:g id="GROUP">%s</xliff:g>: <xliff:g id="MESSAGE">%s</xliff:g>. Vrijeme: <xliff:g id="TIME">%s</xliff:g></string>
-    <!-- Accessibility description for conversation list for failed messages -->
     <string name="failed_message_content_description">Poruka nije uspjela. Dodirnite za ponovni pokušaj.</string>
-    <!-- Accessibility name for a group conversation -->
     <string name="group_conversation_description">Razgovor sa sljedećima: <xliff:g id="PARTICIPANTS">%s</xliff:g></string>
-    <!-- Accessibility : text read on the small X icon on the subject editor -->
     <string name="delete_subject_content_description">Brisanje predmeta</string>
     <string name="camera_switch_to_video_mode">Snimi videozapis</string>
     <string name="camera_switch_to_still_mode">Snimi fotografiju</string>
@@ -389,308 +265,179 @@
         <item quantity="few">Spremanje <xliff:g id="QUANTITY_1">%d</xliff:g> privitaka nije uspjelo</item>
         <item quantity="other">Spremanje <xliff:g id="QUANTITY_1">%d</xliff:g> privitaka nije uspjelo</item>
     </plurals>
-    <!-- Description shown in the download manager for an attachment that the user manually saved -->
     <string name="attachment_file_description">MMS privitak spremljen</string>
-    <!-- Title for the preferences/settings activity -->
     <string name="settings_activity_title">Postavke</string>
-    <!-- Title for the archived conversations activity -->
     <string name="archived_activity_title">Arhivirano</string>
-    <!-- Action title: Close -->
     <string name="action_close">Zatvori</string>
-    <!-- Preference category: MMS messaging -->
     <string name="mms_messaging_category_pref_title">MMS</string>
-    <!-- Preference category: Advanced -->
     <string name="advanced_category_pref_title">Napredno</string>
-    <!-- Preference category: Debug -->
     <string name="debug_category_pref_title">Otklanjanje pogrešaka</string>
-    <!-- Title for the preference for whether or to notify the user of new messages -->
     <string name="notifications_pref_title">Obavijesti</string>
-    <!-- Title for the notification sound preference -->
     <string name="silent_ringtone">Bešumno</string>
     <string name="blocked_pref_title">Blokirano</string>
-    <!-- Title for the preference for whether or not to request/show delivery reports for SMS -->
     <string name="delivery_reports_pref_title">Izvješća o isporuci SMS-a</string>
     <string name="delivery_reports_pref_summary">Zahtijevanje izvješća o isporuci za svaki poslani SMS</string>
     <string name="auto_retrieve_mms_pref_title">Automatski dohvat</string>
     <string name="auto_retrieve_mms_pref_summary">Automatsko dohvaćanje MMS-ova</string>
-    <!-- Title for the preference for whether or not to auto-retrieve MMS when roaming -->
     <string name="auto_retrieve_mms_when_roaming_pref_title">Automatski dohvati u roamingu</string>
     <string name="auto_retrieve_mms_when_roaming_pref_summary">Automatsko dohvaćanje MMS-ova u roamingu</string>
     <string name="group_mms_pref_title">Grupne poruke</string>
     <string name="group_mms_pref_summary">Slanje jedne poruke za više primatelja pomoću MMS-a</string>
-    <!-- Preference title: SMS disabled (Messaging is not default SMS app) -->
     <string name="sms_disabled_pref_title">Zadana aplikacija za SMS</string>
-    <!-- Preference title: SMS enabled (Messaging is the default SMS app) -->
     <string name="sms_enabled_pref_title">Zadana aplikacija za SMS</string>
-    <!-- Preference summary: Current default SMS app -->
-    <!-- Preference title: MMS phone number -->
     <string name="mms_phone_number_pref_title">Vaš telefonski broj</string>
-    <!-- Display text for phone number preference when the number is unknown -->
     <string name="unknown_phone_number_pref_display_value">Nepoznato</string>
-    <!-- Title for the preference for playing a message send sound -->
     <string name="send_sound_pref_title">Zvukovi odlazne poruke</string>
     <string name="dump_sms_pref_title">Sigurnosno kopiraj SMS-ove</string>
     <string name="dump_sms_pref_summary">Sigurnosno kopiranje neobrađenih podataka primljenih SMS-ova u datoteku vanjske pohrane</string>
     <string name="dump_mms_pref_title">Sigurnosno kopiraj MMS-ove</string>
     <string name="dump_mms_pref_summary">Sigurnosno kopiranje neobrađenih podataka primljenih MMS-ova u datoteku vanjske pohrane</string>
-    <!-- Strings for dump sms/mms dialog -->
     <string name="wireless_alerts_title">Upozorenja putem mobilne mreže</string>
-    <!-- Title of long press menu on an individual message. -->
     <string name="message_context_menu_title">Opcije poruka</string>
-    <!-- Menu item to copy message text -->
     <string name="message_context_menu_copy_text">Kopiraj tekst</string>
-    <!-- Title of long press menu for details about an individual message. -->
     <string name="message_context_menu_view_details">Prikaz pojedinosti</string>
-    <!-- Title of long press menu for deleting an individual message. -->
     <string name="message_context_menu_delete_message">Izbriši</string>
-    <!-- Title of long press menu for forwarding an individual message. -->
     <string name="message_context_menu_forward_message">Proslijedi</string>
-    <!-- Title of "Message details" dialog -->
     <string name="message_details_title">Pojedinosti poruke</string>
-    <!-- Label in "Message details" dialog -->
     <string name="message_type_label">Vrsta: </string>
-    <!-- "Type" value in "Message details" dialog -->
     <string name="text_message">SMS poruka</string>
-    <!-- "Type" value in "Message details" dialog -->
     <string name="multimedia_message">Multimedijska poruka</string>
-    <!-- Label in "Message details" dialog showing who sent the message. -->
     <string name="from_label">Šalje: </string>
-    <!-- Label in "Message details" dialog -->
     <string name="to_address_label">Prima: </string>
-    <!-- Label in "Message details" dialog -->
     <string name="sent_label">Poslano: </string>
-    <!-- Label in "Message details" dialog -->
     <string name="received_label">Primljeno: </string>
-    <!-- Label in "Message details" dialog -->
     <string name="subject_label">Predmet: </string>
-    <!-- Label in "Message details" dialog -->
     <string name="message_size_label">Veličina: </string>
-    <!-- Label in "Message details" dialog -->
     <string name="priority_label">Prioritet: </string>
-    <!-- Label in "Message details" dialog -->
     <string name="sim_label">SIM: </string>
-    <!-- "Priority" value in "Message details" dialog -->
     <string name="priority_high">Visok</string>
-    <!-- "Priority" value in "Message details" dialog -->
     <string name="priority_normal">Uobičajeni</string>
-    <!-- "Priority" value in "Message details" dialog -->
     <string name="priority_low">Niski</string>
-    <!-- SIM identified using the slot number. e.g. SIM 1 -->
     <string name="sim_slot_identifier">SIM <xliff:g id="SIM_SLOT_NUMBER">%s</xliff:g></string>
-    <!-- Sender to be used if the sender address has been hidden -->
     <string name="hidden_sender_address">Skrivena adresa pošiljatelja</string>
-    <!-- Shows when the user attempts to send message while some attachment(s) haven't finished loading -->
     <string name="cant_send_message_while_loading_attachments">Slanje poruke nije moguće tijekom učitavanja privitaka.</string>
-    <!-- Notifies the user when an attachment fails to load -->
     <string name="fail_to_load_attachment">Privitak nije učitan. Pokušajte ponovo.</string>
-    <!-- Shows when the user attempts to send message when there is no active subscription -->
     <string name="cant_send_message_without_active_subscription">Mreža nije spremna. Pokušajte ponovo.</string>
     <string name="chips_text_delete_button_content_description">Brisanje teksta</string>
     <string name="numeric_text_keyboard_toggle_button_content_description">Prebacivanje između unosa teksta i brojeva</string>
     <string name="add_more_participants_button_content_description">Dodaj još sudionika</string>
     <string name="confrim_participants_button_content_description">Potvrdi sudionike</string>
     <string name="start_new_conversation">Započnite novi razgovor</string>
-    <!-- Content description for the checkbox when selecting an item in the gallery -->
     <string name="gallery_checkbox_content_description">Odaberite ovu stavku</string>
     <string name="video_thumbnail_view_play_button_content_description">Reproduciraj videozapis</string>
-    <!-- Option menu item in the conversation view that lets user view list of conversation participants and change options -->
     <string name="action_people_and_options">Osobe i opcije</string>
-    <!-- Option menu item in the conversation list view and conversation view that shows debug menu -->
     <string name="action_debug_options">Otkloni pogreške</string>
-    <!-- Title for the "People and Options" activity -->
     <string name="people_and_options_activity_title">Osobe i opcije</string>
-    <!-- Title for the general settings section in the "People and options" activity -->
     <string name="general_settings_title">Općenito</string>
-    <!-- Title for the list of participants in the "People and options" activity -->
     <string name="participant_list_title">Osobe u ovom razgovoru</string>
-    <!-- Title for the phone call button in the action bar that lets the user call a participant in an SMS conversation -->
     <string name="action_call">Uputite poziv</string>
-    <!-- The hint text shown in the message compose input box prompting the user to send a message -->
     <string name="compose_message_view_hint_text">Pošaljite poruku</string>
-    <!-- The hint text shown in the message compose input box prompting the user to send a message when there are multiple SIMs. -->
     <string name="compose_message_view_hint_text_multi_sim">Pošalji poruku&lt;br/&gt;&lt;small&gt;sa SIM kartice <xliff:g id="SIM_NAME">%s</xliff:g>&lt;/small&gt;</string>
-    <!-- The hint text shown in the message compose input box when photo(s) is attached -->
     <plurals name="compose_message_view_hint_text_photo">
         <item quantity="one">Pošaljite fotografije</item>
         <item quantity="few">Pošaljite fotografije</item>
         <item quantity="other">Pošaljite fotografije</item>
     </plurals>
-    <!-- The hint text shown in the message compose input box when audio recording(s) is attached -->
     <plurals name="compose_message_view_hint_text_audio">
         <item quantity="one">Pošaljite audiozapise</item>
         <item quantity="few">Pošaljite audiozapise</item>
         <item quantity="other">Pošaljite audiozapise</item>
     </plurals>
-    <!-- The hint text shown in the message compose input box when video(s) is attached -->
     <plurals name="compose_message_view_hint_text_video">
         <item quantity="one">Pošaljite videozapise</item>
         <item quantity="few">Pošaljite videozapise</item>
         <item quantity="other">Pošaljite videozapise</item>
     </plurals>
-    <!-- The hint text shown in the message compose input box when vcard(s) is attached -->
     <plurals name="compose_message_view_hint_text_vcard">
         <item quantity="one">Pošaljite kartice kontakata</item>
         <item quantity="few">Pošaljite kartice kontakata</item>
         <item quantity="other">Pošaljite kartice kontakata</item>
     </plurals>
-    <!-- The hint text shown in the message compose input box when a single unknown attachment, or multiple different attachments are attached -->
     <plurals name="compose_message_view_hint_text_attachments">
         <item quantity="one">Pošaljite privitke</item>
         <item quantity="few">Pošaljite privitke</item>
         <item quantity="other">Pošaljite privitke</item>
     </plurals>
-    <!-- Announcement after the user adds or removes an attachment -->
     <plurals name="attachment_changed_accessibility_announcement">
         <item quantity="one"><xliff:g id="ATTACHMENT_COUNT">%d</xliff:g> privitak spreman je za slanje</item>
         <item quantity="few"><xliff:g id="ATTACHMENT_COUNT">%d</xliff:g> privitka spremna su za slanje</item>
         <item quantity="other"><xliff:g id="ATTACHMENT_COUNT">%d</xliff:g> privitaka spremno je za slanje</item>
     </plurals>
-    <!-- Action menu title in the HelpAndFeedbackFragment to let users send feedback -->
     <string name="menu_send_feedback">Slanje povratnih informacija</string>
-    <!-- Action menu title in the HelpAndFeedbackFragment to let users view the app in the Google Play Store -->
     <string name="menu_view_in_store">Prikaži u Trgovini Google Play</string>
-    <!-- Action menu title in the HelpAndFeedbackFragment to let users view the version of Bugle -->
     <string name="menu_version_info">Informacije o verziji</string>
-    <!-- The format of the subtitle of the help activity. -->
     <string name="subtitle_format_for_version_number">Verzija %1$s</string>
-    <!--  Action menu title to let users view open source license -->
     <string name="menu_license">Licence otvorenog koda</string>
-    <!-- Title for the per-conversation preference for whether or to notify the user of new messages -->
     <string name="notifications_enabled_conversation_pref_title">Obavijesti</string>
-    <!-- Reached MMS message attachment limit -->
     <string name="mms_attachment_limit_reached">Dosegnuto je ograničenje za privitke</string>
-    <!-- Message attachment load failed -->
     <string name="mms_attachment_load_failed">Učitavanje privitka nije uspjelo.</string>
-    <!-- Alert dialog title to accept or decline adding the given phone number to your contacts. -->
     <string name="add_contact_confirmation_dialog_title">Želite li dodati u Kontakte?</string>
-    <!-- Alert dialog accept adding the given phone number to your contacts button. -->
     <string name="add_contact_confirmation">Dodavanje kontakta</string>
-    <!-- The text shown as a label before the message subject input box -->
     <string name="compose_message_view_subject_hint_text">Predmet</string>
-    <!-- The text shown as a label before the message subject input box -->
     <string name="conversation_message_view_subject_text">Predmet: </string>
-    <!-- When there's a subject in an mms, the subject + message are shown in a notification -->
     <string name="notification_subject"><xliff:g id="SUBJECT_LABEL">%s</xliff:g><xliff:g id="MESSAGETEXT">%s</xliff:g></string>
-    <!-- Text shown on contact VCard when it's being loaded -->
     <string name="loading_vcard">Učitavanje kartice kontakta</string>
-    <!-- Text shown on contact VCard when it failed to load -->
     <string name="failed_loading_vcard">Kartica kontakta nije učitana</string>
-    <!-- Text shown on contact VCard promping the user to tap to view the contact -->
     <string name="vcard_tap_hint">Prikaz kartice kontakta</string>
-    <!-- VCard display name for when there's more than one contact, e.g. "2 contact cards" -->
     <plurals name="vcard_multiple_display_name">
-        <!-- quantity="one" is not needed by the app, but it keeps the translation pipeline happy. -->
         <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> kontakt</item>
         <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kontakta</item>
         <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kontakata</item>
     </plurals>
-    <!-- Title for the activity that shows details of VCards -->
     <string name="vcard_detail_activity_title">Kartice kontakata</string>
-    <!-- VCard label for displaying birthdays -->
     <string name="vcard_detail_birthday_label">Rođendan</string>
-    <!-- VCard label for describing the Notes field of a contact. -->
     <string name="vcard_detail_notes_label">Bilješke</string>
-    <!-- Title for the message forwarding dialog -->
     <string name="forward_message_activity_title">Proslijedi poruku</string>
-    <!-- Title for the message reply dialog -->
     <string name="reply_activity_title">Odgovori</string>
-    <!-- String to show when eliding the number of participants in a conversation due to length (used when there is one extra) -->
     <string name="plus_one">+1</string>
-    <!-- String to show when eliding the number of participants in a conversation due to length (used when there is more than one extra) -->
     <string name="plus_n">+%d</string>
-    <!-- Toast error shown when SMS functionality is disabled -->
     <string name="sms_disabled">SMS je onemogućen</string>
-    <!-- Snackbar message that indicates users must set Messaging as their
-         default SMS application in order to send messages -->
     <string name="requires_default_sms_app_to_send">Postavite Slanje poruka kao zadanu aplikaciju za SMS da biste slali poruke</string>
-    <!-- Snackbar message that indicates users must set Messaging as their default SMS application in order to perform the requested action. -->
     <string name="requires_default_sms_app">Postavite Slanje poruka kao zadanu aplikaciju za SMS</string>
-    <!-- Snackbar button text to switch default SMS apps shown in snackbar. -->
     <string name="requires_default_sms_change_button">Promijeni</string>
-    <!-- Toast message that indicates uses must set Messaging as their
-         default SMS application in order to receive replies in the app. -->
     <string name="recommend_set_default_sms_app">Postavite Slanje poruka kao zadanu aplikaciju za SMS da biste primali poruke</string>
-    <!-- Toast message that indicates no preferred SIM was selected for sending the message -->
     <string name="no_preferred_sim_selected">Nije odabran preferirani SIM za slanje SMS poruka</string>
-    <!-- Dialog message that indicates user must be granted permissions from the phone owner to
-         send SMS messages. -->
     <string name="requires_sms_permissions_message">Vlasnik uređaja nije odobrio upotrebu te aplikacije.</string>
-    <!-- Dialog button text that closes the application. -->
     <string name="requires_sms_permissions_close_button">U redu</string>
-    <!-- Toast text when creating a conversation with more participants than MMS/SMS config permits -->
     <string name="too_many_participants">Previše sudionika u razgovoru</string>
-    <!-- Toast text when creating a conversation with an invalid participant -->
     <plurals name="add_invalid_contact_error">
         <item quantity="one">Nevažeći kontakti</item>
         <item quantity="few">Nevažeći kontakti</item>
         <item quantity="other">Nevažeći kontakti</item>
     </plurals>
-    <!-- Error toast message shown when a camera image failed to attach to the message -->
     <string name="camera_media_failure">Slika nije učitana</string>
-    <!-- A message prefix to indicate the message was sent by the user. -->
     <string name="conversation_list_item_view_sent_from_you_prefix">Vi: </string>
-    <!-- A message prefix to indicate the message was sent by another user in a group conversation. -->
     <string name="conversation_list_item_view_sent_from_other_prefix"><xliff:g id="FIRSTNAMEOFSENDER">%s</xliff:g>: </string>
-    <!-- A message in conversation list view to indicate that the snipit text and preview is from an unsent draft. -->
     <string name="conversation_list_item_view_draft_message">Skica</string>
-    <!-- String to show in the conversation list view when there are no messages. -->
     <string name="conversation_list_empty_text">Ovdje će biti naveden novi razgovor kada ga pokrenete</string>
-    <!-- String to show in the archived conversation list view when there are no messages. -->
     <string name="archived_conversation_list_empty_text">Arhivirani razgovori prikazuju se ovdje</string>
-    <!-- String to show in the conversation list view when we haven't synchronized the SMS database yet -->
     <string name="conversation_list_first_sync_text">Učitavanje razgovora...</string>
-    <!-- Shown in conversation as the snippet when there is no text and an attached picture. [CHAR LIMIT=25] -->
     <string name="conversation_list_snippet_picture">Slika</string>
-    <!-- Shown in conversation as the snippet when there is no text and an attached audio clip. [CHAR LIMIT=25] -->
     <string name="conversation_list_snippet_audio_clip">Audioisječak</string>
-    <!-- Shown in conversation as the snippet when there is no text and an attached video. [CHAR LIMIT=25] -->
     <string name="conversation_list_snippet_video">Videozapis</string>
-    <!-- Shown in conversation as the snippet when there is no text and an attached vcard. [CHAR LIMIT=25] -->
     <string name="conversation_list_snippet_vcard">Kartica kontakta</string>
-    <!-- Indicates that the current message will be sent via MMS -->
     <string name="mms_text">MMS</string>
-    <!-- The string we display with the snack bar notification (very similar to toast) to undo the action that the notification is about. -->
     <string name="snack_bar_undo">Poništi</string>
     <string name="snack_bar_retry">Pokušaj ponovo</string>
-    <!-- Hint text shown on the contact list when there's no contacts -->
     <string name="contact_list_empty_text">Unesite ime kontakta ili telefonski broj da biste započeli novu poruku</string>
-    <!-- Action menu title for blocking and archiving selected conversations in conversation list -->
     <string name="action_block">Blokiraj</string>
-    <!-- Label of block contact item in People & Options for 1:1 conversation -->
     <string name="block_contact_title">Blokiranje <xliff:g id="DESTINATION">%s</xliff:g></string>
-    <!-- Label of unblock contact item in People & Options for 1:1 conversation -->
     <string name="unblock_contact_title">Deblokiraj <xliff:g id="DESTINATION">%s</xliff:g></string>
-    <!-- Title of block confirmation dialog -->
     <string name="block_confirmation_title">Blokirati <xliff:g id="DESTINATION">%s</xliff:g>?</string>
-    <!-- Text describing what happens when user is blocked via the block actionbar action -->
     <string name="block_confirmation_message">I dalje ćete primati poruke s tog broja, ali više nećete primati obavijesti o tome. Razgovor će se arhivirati.</string>
-    <!-- The title of the list of blocked contacts -->
     <string name="blocked_contacts_title">Blokirani kontakti</string>
-    <!-- The message in a blocked contact item which indicates tapping will unblock -->
     <string name="tap_to_unblock_message">DEBLOKIRAJ</string>
-    <!-- Action menu title for viewing the list of blocked contacts -->
     <string name="view_blocked_contacts_title">Blokirani kontakti</string>
-    <!-- Content description for the button in gallery media picker to pick an image from the document library -->
     <string name="pick_image_from_document_library_content_description">Odaberite sliku iz knjižnice dokumenata</string>
-    <!-- Accessibility toast shown when a message is sending. -->
     <string name="sending_message">Slanje poruke</string>
-    <!-- Accessibility toast shown when a message is sent. -->
     <string name="send_message_success">Poruka je poslana</string>
-    <!-- Error toast shown when an MMS could not be sent because mobile data was disabled. -->
     <string name="send_message_failure_no_data">Mobilni su podaci isključeni. Provjerite postavke.</string>
-    <!-- Error toast shown when a message could not be sent because of airplane mode. -->
     <string name="send_message_failure_airplane_mode">Ne možete slati poruke u načinu rada u zrakoplovu</string>
-    <!-- Error toast shown when a message could not be sent because of unspecified error. -->
     <string name="send_message_failure">Slanje poruke nije uspjelo</string>
-    <!-- Accessibility toast shown when an MMS is downloaded. -->
     <string name="download_message_success">Poruka preuzeta</string>
-    <!-- Error toast shown when an MMS could not be downloaded because mobile data was disabled. -->
     <string name="download_message_failure_no_data">Mobilni su podaci isključeni. Provjerite postavke.</string>
-    <!-- Error toast shown when a message could not be downloaded because of airplane mode. -->
     <string name="download_message_failure_airplane_mode">Nije moguće preuzimanje poruka u načinu  rada u zrakoplovu</string>
-    <!-- Error toast shown when a message could not be downloaded because of unspecified error. -->
     <string name="download_message_failure">Preuzimanje poruke nije uspjelo</string>
-    <!-- Accessibility : content description for numbers -->
     <string name="content_description_for_number_zero">Nula</string>
     <string name="content_description_for_number_one">Jedan</string>
     <string name="content_description_for_number_two">Dva</string>
@@ -701,171 +448,90 @@
     <string name="content_description_for_number_seven">Sedam</string>
     <string name="content_description_for_number_eight">Osam</string>
     <string name="content_description_for_number_nine">Devet</string>
-    <!-- Error message which shows the user a carrier specific error code such as "Unable to send message: xxxxx error 97" -->
     <string name="carrier_send_error">Poruka nije poslana putem operatera <xliff:g id="CARRIERNAME">%1$s</xliff:g>, pogreška <xliff:g id="ERRORCODE">%2$d</xliff:g></string>
     <string name="carrier_send_error_unknown_carrier">Poruka nije poslana putem nepoznatog mobilnog operatera, pogreška <xliff:g id="ERRORCODE">%1$d</xliff:g></string>
-    <!-- Text prepended to the subject of a forwarded message -->
     <string name="message_fwd">Fwd: <xliff:g id="SUBJECT">%s</xliff:g></string>
-    <!-- Detailed MMS failure strings, may need to be adjusted per carrier for TA -->
     <string name="mms_failure_outgoing_service">Poruka nije poslana jer usluga nije aktivirana na mreži</string>
     <string name="mms_failure_outgoing_address">Poruka nije poslana jer odredišna adresa nije važeća</string>
     <string name="mms_failure_outgoing_corrupt">Poruka nije poslana jer nije važeća</string>
     <string name="mms_failure_outgoing_content">Poruka nije poslana jer sadržaj nije podržan</string>
     <string name="mms_failure_outgoing_unsupported">Poruka nije poslana jer nije podržana</string>
     <string name="mms_failure_outgoing_too_large">Poruka nije poslana jer je prevelika</string>
-    <!-- The notification toast text and action button label shown at bottom of screen, for when a new message comes in while the user
-         is in that conversation, but the message list is not scrolled to the bottom -->
     <string name="in_conversation_notify_new_message_text">Nova poruka</string>
     <string name="in_conversation_notify_new_message_action">Prikaz</string>
-    <!-- Content description for the message images in a conversation or for the image preview in the conversation list if the lastest message in that conversation contains an image-->
     <string name="message_image_content_description">Slika</string>
-    <!-- Text for a toast message notifying the user that we can't find an appropriate application to handle their request -->
     <string name="activity_not_found_message">Nije pronađena odgovarajuća aplikacija</string>
-    <!-- Accessibility : Content description for deleting a recipient chip. -->
     <string name="chips_delete_content_description">Uklanjanje primatelja</string>
-    <!-- Label for new message button in share intent dialog -->
     <string name="share_new_message">Nova poruka</string>
-    <!-- Label for new message button in share intent dialog -->
     <string name="share_cancel">Odustani</string>
-    <!-- Screen title after user selects APNs setting option -->
     <string name="apn_edit">Uređivanje pristupne točke</string>
-    <!-- Edit access point label summary text when no value has been set -->
     <string name="apn_not_set">Nije postavljeno</string>
-    <!-- Edit access point labels: A label the user can give to the APN to allow him to differentiate it from the others -->
     <string name="apn_name">Naziv</string>
-    <!-- Edit access point labels: The actual access point name-->
     <string name="apn_apn">APN</string>
-    <!-- Edit access point labels: -->
     <string name="apn_mmsc">MMSC</string>
-    <!-- Edit access point labels: The proxy to use for MMS (multimedia messages)-->
     <string name="apn_mms_proxy">MMS proxy</string>
-    <!-- Edit access point labels: The port on the proxy used for MMS-->
     <string name="apn_mms_port">MMS priključak</string>
-    <!-- Edit access point labels: -->
     <string name="apn_mcc">MCC</string>
-    <!-- Edit access point labels: -->
     <string name="apn_mnc">MNC</string>
-    <!-- Edit access point labels: The type of APN -->
     <string name="apn_type">Vrsta APN-a</string>
-    <!-- Edit access point screen menu option to delete this APN -->
     <string name="menu_delete_apn">Izbriši APN</string>
-    <!-- APNs screen menu option to create a brand spanking new APN -->
     <string name="menu_new_apn">Novi APN</string>
-    <!-- Edit access point screen menu option to save the user's changes for this APN to the persistent storage -->
     <string name="menu_save_apn">Spremi</string>
-    <!-- Edit access point screen menu option to discard the user's changes for this APN -->
     <string name="menu_discard_apn_change">Odbaci</string>
-    <!-- APN error dialog messages: -->
     <string name="error_apn_name_empty">Polje naziva ne može biti prazno.</string>
-    <!-- APN error dialog messages: -->
     <string name="error_apn_empty">APN ne može biti prazan.</string>
-    <!-- APN error dialog messages: -->
     <string name="error_mcc_not3">MCC polje mora imati 3 znamenke.</string>
-    <!-- APN error dialog messages: -->
     <string name="error_mnc_not23">Polje MNC mora imati 2 ili 3 znamenke.</string>
-    <!-- The message of dialog indicated restoring default APN settings in progress -->
     <string name="restore_default_apn">Vraćaju se zadane postavke APN-a.</string>
-    <!-- APNs screen menu option to reset default APN settings -->
     <string name="menu_restore_default_apn">Vrati na zadano</string>
-    <!-- APNs screen toast message to inform reset default APN settings is completed -->
     <string name="restore_default_apn_completed">Dovršeno je vraćanje zadanih postavki APN-a.</string>
-    <!-- Name to assign to a Network Access Point that was saved without a name -->
     <string name="untitled_apn">Bez naziva</string>
-    <!-- Title for Access Point Names settings -->
     <string name="sms_apns_title">Nazivi pristupnih točaka</string>
-    <!-- Title for Access Point Names settings activity -->
     <string name="apn_settings">APN-ovi</string>
-    <!-- APNs screen menu option to create a brand spanking new APN -->
     <string name="menu_new">Novi APN</string>
-    <!-- Error message for users that aren't allowed to modify Access Point Names settings [CHAR LIMIT=none] -->
     <string name="apn_settings_not_available">Postavke naziva pristupne točke nisu dostupne ovom korisniku</string>
-    <!-- Alert dialog title to copy information displayed in dialog to system clipboard. -->
     <string name="copy_to_clipboard_dialog_title">Kopirati u međuspremnik?</string>
-    <!-- Alert dialog accept to copy information displayed in dialog to system clipboard. -->
     <string name="copy_to_clipboard">Kopiraj</string>
-    <!-- SIM name incoming message bubbles indicating which SIM the message was delivered to -->
     <string name="incoming_sim_name_text">na <xliff:g id="SIM_NAME">%s</xliff:g></string>
-    <!-- The title for general settings section in the settings activity  -->
     <string name="general_settings">Općenito</string>
-    <!-- The title for advanced settings section in the settings activity  -->
     <string name="advanced_settings">Napredno</string>
-    <!-- The title for general settings activity  -->
     <string name="general_settings_activity_title">Opće postavke</string>
-    <!-- The title for advanced settings activity  -->
     <string name="advanced_settings_activity_title">Napredne postavke</string>
-    <!-- The title for sim_specific settings  -->
     <string name="sim_specific_settings">\"<xliff:g id="SIM_NAME">%s</xliff:g>\" SIM</string>
-    <!-- The group MMS choices in settings -->
     <string name="disable_group_mms">Slanje pojedinačnih SMS poruka svim primateljima. Eventualne odgovore dobit ćete samo vi</string>
     <string name="enable_group_mms">Slanje pojedinačnog MMS-a svim primateljima</string>
-    <!-- SIM number shown in the settings when the number is not known -->
     <string name="sim_settings_unknown_number">Nepoznati broj</string>
-    <!-- Notification title for incoming sms/mms message for secondary user -->
     <string name="secondary_user_new_message_title">Nova poruka</string>
-    <!-- Ticker for notification  for incoming sms/mms message for secondary user -->
     <string name="secondary_user_new_message_ticker">Nova poruka.</string>
-    <!-- Content description for the SIM selector button in the conversation -->
     <string name="sim_selector_button_content_description">Gumb za odabir SIM-a</string>
-    <!-- Content description for the SIM selector button with selected sim name -->
     <string name="sim_selector_button_content_description_with_selection"><xliff:g id="SIM_0">%1$s</xliff:g> odabran, gumb za odabir SIM-a</string>
-    <!-- Custom TalkBack description for send button long click event when there's no SIM selector, i.e. edit subject -->
     <string name="send_button_long_click_description_no_sim_selector">Uredi predmet</string>
-    <!-- Custom TalkBack description for send button long click event when there is SIM selector -->
     <string name="send_button_long_click_description_with_sim_selector">Odabir SIM-a ili uređivanje predmeta</string>
-    <!-- Content description for the audio record view -->
     <string name="audio_record_view_content_description">Dodirnite i zadržite da biste snimili zvuk</string>
-    <!-- Content description for new conversation button in desktop widget -->
     <string name="widget_new_conversation_content_description">Započnite novi razgovor</string>
-    <!-- Content description for widget title -->
     <string name="widget_title_content_description">Slanje poruka</string>
-    <!-- Displayed name of the desktop widget that shows the list of conversations-->
     <string name="widget_conversation_list_name">Popis Slanja poruka</string>
-    <!-- Displayed name of the desktop widget that shows a single conversation-->
     <string name="widget_conversation_name">Slanje poruka</string>
-    <!-- Content description for new message button in desktop widget -->
     <string name="widget_new_message_content_description">Nova poruka</string>
-    <!-- Content description for conversation list button in desktop widget -->
     <string name="widget_conversation_list_content_description">Popis razgovora</string>
-    <!-- Shown when loading conversations in the widget -->
     <string name="loading_conversations">Učitavanje razgovora</string>
-    <!-- Shown when loading messages in the widget -->
     <string name="loading_messages">Učitavanje poruka</string>
-    <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open bugle home activity. [CHAR LIMIT=35] -->
     <string name="view_more_conversations">Prikaži više razgovora</string>
-    <!-- Displayed at the beginning of the message list in the widget. Tapping on this will open bugle home activity. [CHAR LIMIT=35] -->
     <string name="view_more_messages">Prikaži više poruka</string>
-    <!-- Toast message telling the user a conversation has been deleted -->
     <string name="conversation_deleted">Razgovor je izbrisan</string>
-    <!-- Displayed when user adds a new conversation widget. Tapping on the widget in this
-          mode will bring user to the conversation selection screen -->
     <string name="tap_to_configure">Razgovor izbrisan. Dodirnite za prikaz drugog razgovora iz Slanja poruka</string>
-    <!-- Toast message telling the user that someone was blocked -->
     <string name="update_destination_blocked">Blokirano</string>
-    <!-- Toast message telling the user that someone was unblocked -->
     <string name="update_destination_unblocked">Deblokirano</string>
     <string name="db_full">Nedostaje prostora za pohranu. Neki se podaci mogu izgubiti.</string>
-    <!-- Title for attachment chooser activity -->
     <string name="attachment_chooser_activity_title">Odaberite privitke</string>
-    <!-- Action menu title for confirming attachment selection in the attachment chooser -->
     <string name="action_confirm_selection">Potvrdite odabir</string>
-    <!-- Shows the number of selected attachments in the attachment chooser activity -->
     <string name="attachment_chooser_selection">Odabrano: <xliff:g id="COUNT">%d</xliff:g></string>
-    <!-- The dialog message content for when the message is over the attachment limit when composing the message -->
     <string name="attachment_limit_reached_dialog_message_when_composing">Uklonite jedan ili više privitaka i pokušajte ponovo.</string>
-    <!-- The dialog message content for when the message is over the attachment limit when sending the message -->
     <string name="attachment_limit_reached_dialog_message_when_sending">Možete pokušati poslati poruku, ali možda neće biti dostavljena ako ne uklonite jedan ili više privitaka.</string>
-    <!-- The dialog message content for when the message is over the attachment limit when sending the message -->
     <string name="video_attachment_limit_exceeded_when_sending">Možete poslati samo jedan videozapis u poruci. Uklonite dodatne videozapise i pokušajte ponovo.</string>
-    <!-- The dialog message content for when the message load failed -->
     <string name="attachment_load_failed_dialog_message">Slanje poruka nije uspjelo učitati privitak.</string>
-    <!-- The option to send the message anyway when the user is presented with the warning that the attachment size might be over limit -->
     <string name="attachment_limit_reached_send_anyway">Svejedno pošalji</string>
-    <!-- Toast message telling the user a conversation with a recipient could not be found or created -->
     <string name="conversation_creation_failure">Pokretanje razgovora nije uspjelo</string>
-    <!-- When converting html to text link urls are inlined.  This specifies how the link should be
-    displayed.  For example, a link "click here" which navigates to "www.google.com" would have
-    text="click here" and url="www.google.com", using the below format to create "click here (www.google.com)" -->
     <string name="link_display_format"><xliff:g id="TEXT">%1$s</xliff:g> (<xliff:g id="URL">%2$s</xliff:g>)</string>
-    <!-- The accessibility text read when the sim chooser pops up to read the current selected sim -->
     <string name="selected_sim_content_message">Odabrani SIM: <xliff:g id="SELECTED_SIM">%s</xliff:g></string>
 </resources>
