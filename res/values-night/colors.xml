@@ -128,7 +128,6 @@
 
     <color name="message_body_size_text_color">@color/omni_text1</color>
     <color name="mms_indicator_color">@color/omni_color3</color>
-    <color name="list_empty_text">@color/omni_color2</color>
     <color name="low_storage_action_item_color">#ffeeeeee</color>
     <color name="open_conversation_animation_background_shadow">@color/omni_color1</color>
 
